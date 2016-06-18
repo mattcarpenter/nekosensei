@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95E1FF21D15D9260036D099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E1FF11D15D9260036D099 /* AppDelegate.swift */; };
+		C95E1FF41D15D9260036D099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95E1FF31D15D9260036D099 /* Assets.xcassets */; };
+		C95E1FF71D15D9260036D099 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95E1FF51D15D9260036D099 /* MainMenu.xib */; };
+		C95E20021D15D9260036D099 /* NekoSenseiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E20011D15D9260036D099 /* NekoSenseiTests.swift */; };
+		C95E200D1D15D9260036D099 /* NekoSenseiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E200C1D15D9260036D099 /* NekoSenseiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C95E1FFE1D15D9260036D099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95E1FE61D15D9260036D099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95E1FED1D15D9260036D099;
+			remoteInfo = NekoSensei;
+		};
+		C95E20091D15D9260036D099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95E1FE61D15D9260036D099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95E1FED1D15D9260036D099;
+			remoteInfo = NekoSensei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C95E1FEE1D15D9260036D099 /* NekoSensei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekoSensei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95E1FF11D15D9260036D099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C95E1FF31D15D9260036D099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C95E1FF61D15D9260036D099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C95E1FF81D15D9260036D099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95E1FFD1D15D9260036D099 /* NekoSenseiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NekoSenseiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95E20011D15D9260036D099 /* NekoSenseiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoSenseiTests.swift; sourceTree = "<group>"; };
+		C95E20031D15D9260036D099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95E20081D15D9260036D099 /* NekoSenseiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NekoSenseiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95E200C1D15D9260036D099 /* NekoSenseiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoSenseiUITests.swift; sourceTree = "<group>"; };
+		C95E200E1D15D9260036D099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95E1FEB1D15D9260036D099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95E1FFA1D15D9260036D099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95E20051D15D9260036D099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95E1FE51D15D9260036D099 = {
+			isa = PBXGroup;
+			children = (
+				C95E1FF01D15D9260036D099 /* NekoSensei */,
+				C95E20001D15D9260036D099 /* NekoSenseiTests */,
+				C95E200B1D15D9260036D099 /* NekoSenseiUITests */,
+				C95E1FEF1D15D9260036D099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C95E1FEF1D15D9260036D099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95E1FEE1D15D9260036D099 /* NekoSensei.app */,
+				C95E1FFD1D15D9260036D099 /* NekoSenseiTests.xctest */,
+				C95E20081D15D9260036D099 /* NekoSenseiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C95E1FF01D15D9260036D099 /* NekoSensei */ = {
+			isa = PBXGroup;
+			children = (
+				C95E1FF11D15D9260036D099 /* AppDelegate.swift */,
+				C95E1FF31D15D9260036D099 /* Assets.xcassets */,
+				C95E1FF51D15D9260036D099 /* MainMenu.xib */,
+				C95E1FF81D15D9260036D099 /* Info.plist */,
+			);
+			path = NekoSensei;
+			sourceTree = "<group>";
+		};
+		C95E20001D15D9260036D099 /* NekoSenseiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C95E20011D15D9260036D099 /* NekoSenseiTests.swift */,
+				C95E20031D15D9260036D099 /* Info.plist */,
+			);
+			path = NekoSenseiTests;
+			sourceTree = "<group>";
+		};
+		C95E200B1D15D9260036D099 /* NekoSenseiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C95E200C1D15D9260036D099 /* NekoSenseiUITests.swift */,
+				C95E200E1D15D9260036D099 /* Info.plist */,
+			);
+			path = NekoSenseiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C95E1FED1D15D9260036D099 /* NekoSensei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95E20111D15D9260036D099 /* Build configuration list for PBXNativeTarget "NekoSensei" */;
+			buildPhases = (
+				C95E1FEA1D15D9260036D099 /* Sources */,
+				C95E1FEB1D15D9260036D099 /* Frameworks */,
+				C95E1FEC1D15D9260036D099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NekoSensei;
+			productName = NekoSensei;
+			productReference = C95E1FEE1D15D9260036D099 /* NekoSensei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C95E1FFC1D15D9260036D099 /* NekoSenseiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95E20141D15D9260036D099 /* Build configuration list for PBXNativeTarget "NekoSenseiTests" */;
+			buildPhases = (
+				C95E1FF91D15D9260036D099 /* Sources */,
+				C95E1FFA1D15D9260036D099 /* Frameworks */,
+				C95E1FFB1D15D9260036D099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95E1FFF1D15D9260036D099 /* PBXTargetDependency */,
+			);
+			name = NekoSenseiTests;
+			productName = NekoSenseiTests;
+			productReference = C95E1FFD1D15D9260036D099 /* NekoSenseiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C95E20071D15D9260036D099 /* NekoSenseiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95E20171D15D9260036D099 /* Build configuration list for PBXNativeTarget "NekoSenseiUITests" */;
+			buildPhases = (
+				C95E20041D15D9260036D099 /* Sources */,
+				C95E20051D15D9260036D099 /* Frameworks */,
+				C95E20061D15D9260036D099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95E200A1D15D9260036D099 /* PBXTargetDependency */,
+			);
+			name = NekoSenseiUITests;
+			productName = NekoSenseiUITests;
+			productReference = C95E20081D15D9260036D099 /* NekoSenseiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95E1FE61D15D9260036D099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "matthew carpenter";
+				TargetAttributes = {
+					C95E1FED1D15D9260036D099 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C95E1FFC1D15D9260036D099 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C95E1FED1D15D9260036D099;
+					};
+					C95E20071D15D9260036D099 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C95E1FED1D15D9260036D099;
+					};
+				};
+			};
+			buildConfigurationList = C95E1FE91D15D9260036D099 /* Build configuration list for PBXProject "NekoSensei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C95E1FE51D15D9260036D099;
+			productRefGroup = C95E1FEF1D15D9260036D099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C95E1FED1D15D9260036D099 /* NekoSensei */,
+				C95E1FFC1D15D9260036D099 /* NekoSenseiTests */,
+				C95E20071D15D9260036D099 /* NekoSenseiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95E1FEC1D15D9260036D099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95E1FF41D15D9260036D099 /* Assets.xcassets in Resources */,
+				C95E1FF71D15D9260036D099 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95E1FFB1D15D9260036D099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95E20061D15D9260036D099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95E1FEA1D15D9260036D099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95E1FF21D15D9260036D099 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95E1FF91D15D9260036D099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95E20021D15D9260036D099 /* NekoSenseiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95E20041D15D9260036D099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95E200D1D15D9260036D099 /* NekoSenseiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C95E1FFF1D15D9260036D099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95E1FED1D15D9260036D099 /* NekoSensei */;
+			targetProxy = C95E1FFE1D15D9260036D099 /* PBXContainerItemProxy */;
+		};
+		C95E200A1D15D9260036D099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95E1FED1D15D9260036D099 /* NekoSensei */;
+			targetProxy = C95E20091D15D9260036D099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C95E1FF51D15D9260036D099 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95E1FF61D15D9260036D099 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95E200F1D15D9260036D099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C95E20101D15D9260036D099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C95E20121D15D9260036D099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NekoSensei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mattcarpenter.NekoSensei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C95E20131D15D9260036D099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NekoSensei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mattcarpenter.NekoSensei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C95E20151D15D9260036D099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NekoSenseiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mattcarpenter.NekoSenseiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NekoSensei.app/Contents/MacOS/NekoSensei";
+			};
+			name = Debug;
+		};
+		C95E20161D15D9260036D099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NekoSenseiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mattcarpenter.NekoSenseiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NekoSensei.app/Contents/MacOS/NekoSensei";
+			};
+			name = Release;
+		};
+		C95E20181D15D9260036D099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NekoSenseiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mattcarpenter.NekoSenseiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NekoSensei;
+			};
+			name = Debug;
+		};
+		C95E20191D15D9260036D099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NekoSenseiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mattcarpenter.NekoSenseiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NekoSensei;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95E1FE91D15D9260036D099 /* Build configuration list for PBXProject "NekoSensei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95E200F1D15D9260036D099 /* Debug */,
+				C95E20101D15D9260036D099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95E20111D15D9260036D099 /* Build configuration list for PBXNativeTarget "NekoSensei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95E20121D15D9260036D099 /* Debug */,
+				C95E20131D15D9260036D099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C95E20141D15D9260036D099 /* Build configuration list for PBXNativeTarget "NekoSenseiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95E20151D15D9260036D099 /* Debug */,
+				C95E20161D15D9260036D099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C95E20171D15D9260036D099 /* Build configuration list for PBXNativeTarget "NekoSenseiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95E20181D15D9260036D099 /* Debug */,
+				C95E20191D15D9260036D099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95E1FE61D15D9260036D099 /* Project object */;
+}
