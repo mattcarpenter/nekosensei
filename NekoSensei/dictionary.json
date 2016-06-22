@@ -1,0 +1,17 @@
+{
+    "words": [
+              {
+              "kana": "いち",
+              "romaji": "ichi",
+              "translation": "1",
+              "definition": "1",
+              "parts": [
+                        {
+                        "romaji": "ichi",
+                        "kana": "いち",
+                        "audio": "ichi.wav"
+                        }
+                        ]
+              }
+              ]
+}

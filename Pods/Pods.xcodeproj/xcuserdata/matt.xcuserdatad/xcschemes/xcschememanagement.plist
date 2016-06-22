@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NekoSensei.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NekoSenseiTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NekoSenseiUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SQLite.swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>013782750F4E32BB896D767CBC607C62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>057B467BD5591A42CFFBF5202F6EAB8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0931470E03DDF5D5B8C7CE72E2E4FF8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>96B5A70BEFE679DD0E3B485AFC1E78FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EADE475E724F3C0E7B4D9F93C20C6503</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

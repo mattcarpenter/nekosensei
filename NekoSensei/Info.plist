@@ -30,5 +30,23 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+    <key>NSServices</key>
+    <array>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict>
+                <key>default</key>
+                <string>Translate with NekoSensei</string>
+            </dict>
+            <key>NSMessage</key>
+            <string>toggleMute</string>
+            <key>NSPortName</key>
+            <string>Mute</string>
+            <key>NSSendTypes</key>
+            <array>
+                <string>public.rtf</string>
+            </array>
+        </dict>
+    </array>
 </dict>
 </plist>

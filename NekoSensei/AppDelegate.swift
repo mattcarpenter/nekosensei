@@ -7,21 +7,30 @@
 //
 
 import Cocoa
+import JSON
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
 
-
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+        NSLog("foobar");
+        
+        var users: AnyObject?
+        do {
+            users = try JSON.from("dictionary.json")
+            NSLog("hello");
+        } catch {
+            // Handle error
+        }
+        let x = TTS();
+        x.speak("2500");
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
-
-
 }
 
