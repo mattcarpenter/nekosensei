@@ -13,6 +13,7 @@
 		C918FF3D1D161B5D003510BC /* dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = C918FF3C1D161B5D003510BC /* dictionary.json */; };
 		C918FF3F1D162DB0003510BC /* TTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918FF3E1D162DB0003510BC /* TTS.swift */; };
 		C918FF431D1A3E33003510BC /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918FF421D1A3E33003510BC /* MainWindowController.swift */; };
+		C918FF451D1B6139003510BC /* neko.png in Resources */ = {isa = PBXBuildFile; fileRef = C918FF441D1B6139003510BC /* neko.png */; };
 		C95E1FF21D15D9260036D099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E1FF11D15D9260036D099 /* AppDelegate.swift */; };
 		C95E1FF41D15D9260036D099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95E1FF31D15D9260036D099 /* Assets.xcassets */; };
 		C95E1FF71D15D9260036D099 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95E1FF51D15D9260036D099 /* MainMenu.xib */; };
@@ -49,6 +50,7 @@
 		C918FF3C1D161B5D003510BC /* dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dictionary.json; sourceTree = "<group>"; };
 		C918FF3E1D162DB0003510BC /* TTS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTS.swift; sourceTree = "<group>"; };
 		C918FF421D1A3E33003510BC /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainWindowController.swift; path = ../MainWindowController.swift; sourceTree = "<group>"; };
+		C918FF441D1B6139003510BC /* neko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neko.png; sourceTree = "<group>"; };
 		C95E1FEE1D15D9260036D099 /* NekoSensei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekoSensei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95E1FF11D15D9260036D099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C95E1FF31D15D9260036D099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		C918FF3B1D161B4F003510BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C918FF441D1B6139003510BC /* neko.png */,
 				C918FF3C1D161B5D003510BC /* dictionary.json */,
 			);
 			name = Resources;
@@ -288,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C918FF451D1B6139003510BC /* neko.png in Resources */,
 				C95E1FF41D15D9260036D099 /* Assets.xcassets in Resources */,
 				C918FF3D1D161B5D003510BC /* dictionary.json in Resources */,
 				C95E1FF71D15D9260036D099 /* MainMenu.xib in Resources */,
