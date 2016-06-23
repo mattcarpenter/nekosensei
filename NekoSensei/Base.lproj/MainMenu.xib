@@ -227,6 +227,10 @@
             </view>
             <point key="canvasLocation" x="356" y="244.5"/>
         </window>
-        <customObject id="Kat-Fi-rRW" customClass="MainWindowController" customModule="NekoSensei" customModuleProvider="target"/>
+        <customObject id="Kat-Fi-rRW" customClass="MainWindowController" customModule="NekoSensei" customModuleProvider="target">
+            <connections>
+                <outlet property="rangeControl" destination="L46-ye-xr4" id="0GE-Wu-agQ"/>
+            </connections>
+        </customObject>
     </objects>
 </document>

@@ -25,8 +25,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         } catch {
             // Handle error
         }
-        let x = TTS();
-        x.speak("2500");
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
