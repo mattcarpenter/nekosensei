@@ -7,144 +7,165 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0072F7716E7F8DA2F05AE2DAD59CDF89 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD52CE2574589FA2ED9F9707B8812F /* Blob.swift */; };
-		04CD73BAF33451E647B311D9E9DC0D82 /* R*Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17193946421DA3B91A2609FB28284780 /* R*Tree.swift */; };
-		103120174F36ED68D45F0C13460F240F /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A11124F91A955709C9C60C1F911EBC /* Setter.swift */; };
-		29A63DC42F071F2B9188E39C7CEB5AB6 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5006A539D2D0E6008FFB1F2C23B912A /* Operators.swift */; };
-		42F127DB5AFC220DBD34826727CDA72A /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4EEE1FD310EC12648000F1719E3C76 /* Value.swift */; };
+		0007A475E674B5F9B88252DA7A6281DA /* Just-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB779EDC5B556B6951C79C0F4043B6D /* Just-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082898FFF09C1D87E7F77AB3B1156CB8 /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8357965D9ADBD7479C5540DBEE32D /* SQLite-Bridging.m */; };
+		13A844B17CC835EF8251653DBF9C4B7D /* Just.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF44B17C5B1F8081DD97BC44B0194A7 /* Just.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E38C08F388C8D873A6221C54EB7D600 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCD0E96842B22CC20D4D638A4734824 /* Connection.swift */; };
+		400397533BF54EBE9D9DF8B022CCA89C /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3CA663DB81861D7247909F5F857E52 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		40C44B7F3AE9DCE3FBC2C0933710767F /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2207B5EC3CDC8438FDFEBEAA57577B46 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		434532CCD6264FAB7DA8D61B81C6FD2D /* Pods-NekoSenseiTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1542D53B22E96533F6E1687586B480 /* Pods-NekoSenseiTests-dummy.m */; };
-		44A909221CA8BEB2DB2B1D6C8DAA53D2 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478B0FC2B4695FFAE8A4A085E8C5ED1 /* AggregateFunctions.swift */; };
-		462B3252860AB3F81E6BA11A5E6467FC /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF35C054FA96D3B250017D3D8CED92F /* Query.swift */; };
 		46B5FB995DB3B6CB1E4BF3376C8BDD8B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		48037B97334C01D6893FEFB9ACBEBBF5 /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53465A2993E90976CE8D1C41BFE7BF93 /* SQLite.swift-dummy.m */; };
-		4EBA58F3B2E3D16DD36CB9969107B23B /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004281D6153C5427B9235A94CB553484 /* Foundation.swift */; };
-		5988537E7261269B970A264C0A8B9F3B /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 83647E459D13C8BDE97A409940779946 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47996912E0DF70D825B8AE34B1D67407 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6F521E9C964D3FD961B65F3A002102 /* Value.swift */; };
+		4A9DA9BA4371AED627EA30B8DD4B6571 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D745B70656962780DB09259DAF317B /* FTS4.swift */; };
 		5C348DF58DEF85D79900C3B3105611AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		5F42130D7FE76BB1EAFAC427CA3A8B0C /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1703E39CF336AE322C8E25854A634 /* Statement.swift */; };
-		63B34702B818B42370D4B44E03DD4F5E /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955F88E5E4114DCBC8C4FD71D9D1ACA /* Expression.swift */; };
-		752902E09CCE0F29D08FC531A01C98A3 /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = C37B391E5B3C0B4A7FF45A187D79E82F /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A60D99DCD733529FBC2B6C83D680929 /* JSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6861D2308E94E409166EF560FF57525 /* JSON-dummy.m */; };
+		5CB32B7344B04F0D515B62EEB9A347C6 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE3FF14F9AE4DFB9FB9EC9E8E5B7E0 /* Collation.swift */; };
+		6285C593180C8E7C3C1D4C8CA745FF81 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D36E0D815B0021D60440F61ACBEA5 /* CoreFunctions.swift */; };
+		65C20A50DE6ABEECF37CCC5318834482 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
+		6A5DF085F7926522E24903F2FF1329B2 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F82284225D15CEA61DD1C39A90654 /* Query.swift */; };
+		7038E397AA5C611118543E4BAA8FA9B0 /* Pods-NekoSensei-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B90EF53E05E997642ABFAF920897B98 /* Pods-NekoSensei-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71104E1C3195E24761AF4C3E3195AE13 /* R*Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273CA6622BE67B0F0049EB7A67AE2E22 /* R*Tree.swift */; };
+		7A60D99DCD733529FBC2B6C83D680929 /* JSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E583675F6F86A8869E7165E7274F5A52 /* JSON-dummy.m */; };
+		7AC29D2D651CEAE342869AA31BB2609B /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 523C77F75088BDB98AAA247E2B24884E /* SQLite.swift-dummy.m */; };
+		7FA022354AF9A51EE273CF6FE4ADE8CC /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDAB1B15C0ADFC360E0E99BAF0A7D5 /* Expression.swift */; };
+		828ED2604F60727D37C465F5FFEB48FD /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C682FBD730512A835FF19BCF22E02 /* AggregateFunctions.swift */; };
+		86ECC96EEEAD6210A0A615D441E1B034 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CED1805C1EED933C0487F93E0EBFB6 /* Operators.swift */; };
 		8882CF2938FCC9C1C6D3D819270657D6 /* Pods-NekoSenseiUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CD4512961FBE080134B1E630BF59D0 /* Pods-NekoSenseiUITests-dummy.m */; };
-		8DC1AFDF105B3D64FA9F0F7F4FD8DDEC /* JSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE5D85047558424EA05F6B4F1BC4B1B /* JSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC1AFDF105B3D64FA9F0F7F4FD8DDEC /* JSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 190A925CF957C1EBB2D25982C15C8912 /* JSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EB70ADD51EEF90804FC8D058F845C6D /* Pods-NekoSenseiUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE25F7D7C37FE773BF887AFF4F733E3 /* Pods-NekoSenseiUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EF96C76A679CE61705E87C16DF145C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
 		92CD79DE8769E0388225CCE43BEA08C8 /* Pods-NekoSenseiTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF4765C358D01B6C5CDF7EA1D61A176 /* Pods-NekoSenseiTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92DDE34FDFD3FC4C2B000329C747A705 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9006A0ABA9A467A4571E75F44FE0A /* JSON.swift */; };
-		A19F67BD36414F8175A30FB6EBBF6D88 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AFFDBF3E211EA6FE6C698F5C32DC474 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		A84011C08F74A5048780923A87C35BF9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		A8450D9E38EC455B5AF6359236A5E699 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F4BB366137FE21052A9EE2CAB4BC19 /* Schema.swift */; };
-		AF1C868E0A6D9D6BA54FC2B7072D464D /* Pods-NekoSensei-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC6908E3A032618A0B88FBEFF13CB6A /* Pods-NekoSensei-dummy.m */; };
-		B7C526AB6F3AA3A94B2408554055094F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
+		92DDE34FDFD3FC4C2B000329C747A705 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B6BFFB5F231E98357D036987D1FD68 /* JSON.swift */; };
+		9472F19D82368B3676010DD4A7CBCB68 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0641D663F8FF0F5977A6E944478DB17 /* Schema.swift */; };
+		985F773894D90C3CD55E32D09C0B966C /* Just-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E5D097D66405447CEC4632CF3B00B0 /* Just-dummy.m */; };
+		98F013DEF49B1AF653D707ED09231B57 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162D23E10A955F71C451CD47F8FFFF0 /* Statement.swift */; };
+		A945B632645C7BD972B1D8AD4BEA9A45 /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FA67529172043AB84FF06ED3E408AC /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF8F0973741C22BBB7989A4123630211 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14223D02AFB754873612DEEAC6AC378 /* CustomFunctions.swift */; };
 		B862BF670F93868695FCF9D9AE004984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38259A4F1802719F518A96F324DB7450 /* Foundation.framework */; };
-		C06CB3D8AA7BBE79B9B55DFD37FE6AB0 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC41A1B0634E80429C934A49BF5538 /* Connection.swift */; };
-		C2086CF2A1618C47E3148918C7C42A48 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF7D0B06811A3DC281DC0442AC9AFEF /* FTS4.swift */; };
-		CD0F562DCA4F7DEDDB9D8F3234A67F08 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6B8C1A9C436D775D975CB17757EFF /* CoreFunctions.swift */; };
-		D0B3DE48D3EC358F8B4969CB33FD24FE /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4BBECC555FD2FE8EB4E4BF6AC5557 /* Collation.swift */; };
-		D6CA3A71A49F47ACD1D50ED47DA2055B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470F8B2679A7D79DAF1FCE674C196AE /* Helpers.swift */; };
+		BD6892DA725A62AA15ED6C9A473EFCD2 /* Pods-NekoSensei-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC6908E3A032618A0B88FBEFF13CB6A /* Pods-NekoSensei-dummy.m */; };
+		C8886730B063E812F264979F8EA5B462 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D372CA598301C792FB05C7A01E1105C /* Just.swift */; };
+		C8E79943EDFEB697C732D2EF581436C1 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDAF4635D5AA4184830BA1DFEAA59C6 /* Blob.swift */; };
+		CA400FDE8A22DB8D9894EF8E66317BF5 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = C17E29203166C5836F9EFC4C0A6EB5AF /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE5FFABEB69C959E50EB82B06D887CCD /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C99E5E8DE509DF9CA936EC7EE2C2E /* Setter.swift */; };
+		D31D5266FC9071A8F6BC17C544CF8118 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
+		DA060F008169ADBF9F0FC0E8F9986023 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC6ECB34690191EE597639B9FD4ACC /* Foundation.swift */; };
 		DE4EA1AA40FFF307AAAB1E1D753C4414 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		E01384D7D3E289211A60B154EB2F2FA0 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E452E88B6A94AD9F030CC55859E93C /* CustomFunctions.swift */; };
-		F9611B65CB7D30F929F0610926160898 /* Pods-NekoSensei-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B90EF53E05E997642ABFAF920897B98 /* Pods-NekoSensei-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F974643E14ACB19827C3C053AB95C09A /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F68BD8DFEBA77D9BC5C8B7EA6F676815 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEB7ABC6349C93B9A59B0A71C6BF07E1 /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 405258127353CF3D8F0E5A8B9A3FFF0E /* SQLite-Bridging.m */; };
+		E967073806DFC20AB27EB06872935C0A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280AF43B3DD9E80E7051DCA5D685CC3 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B54D0788AC8266B930A53FC81510092D /* PBXContainerItemProxy */ = {
+		64770FDF5A6583C45C5A15348BD0533A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0121BA2B9A770E93F20E8DEB393F1EB7;
+			remoteInfo = Just;
+		};
+		A067E5DC2EEFB95FDA20E9AF2932B9F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EADE475E724F3C0E7B4D9F93C20C6503;
 			remoteInfo = JSON;
 		};
-		CF8B54ED0DFA6FB5053D36AC5D576265 /* PBXContainerItemProxy */ = {
+		D8E638AFFD8309E9CF08288C40600002 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 96B5A70BEFE679DD0E3B485AFC1E78FE;
+			remoteGlobalIDString = B0458C38041FEE206CD0DB2576124527;
 			remoteInfo = SQLite.swift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004281D6153C5427B9235A94CB553484 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = SQLite/Foundation.swift; sourceTree = "<group>"; };
-		01D6B8C1A9C436D775D975CB17757EFF /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
 		03D0B57CE29F3D4E94499C3C90A81565 /* Pods-NekoSenseiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoSenseiTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0478B0FC2B4695FFAE8A4A085E8C5ED1 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		04513BA6AB15AFFE0C1676C5BB595F26 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5C99E5E8DE509DF9CA936EC7EE2C2E /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		0DCD0E96842B22CC20D4D638A4734824 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		0E3F82284225D15CEA61DD1C39A90654 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		0E9861FCE4ACA66353216B71E82E04DB /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		112D36E0D815B0021D60440F61ACBEA5 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		117D7C1F662A6ED25F44A1491DCA4549 /* JSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSON-prefix.pch"; sourceTree = "<group>"; };
 		13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		17193946421DA3B91A2609FB28284780 /* R*Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "R*Tree.swift"; path = "SQLite/Extensions/R*Tree.swift"; sourceTree = "<group>"; };
-		1955F88E5E4114DCBC8C4FD71D9D1ACA /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
-		1BA5373FDB74A0C663200D51A56B1822 /* JSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JSON.modulemap; sourceTree = "<group>"; };
+		1807F4077761C7901C708457325E96FB /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		190A925CF957C1EBB2D25982C15C8912 /* JSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSON-umbrella.h"; sourceTree = "<group>"; };
+		1CB779EDC5B556B6951C79C0F4043B6D /* Just-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Just-umbrella.h"; sourceTree = "<group>"; };
+		1CDAF4635D5AA4184830BA1DFEAA59C6 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		2207B5EC3CDC8438FDFEBEAA57577B46 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
 		24308B065E1D968908D8D69E08D3975F /* Pods-NekoSenseiUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NekoSenseiUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2637F236EE36224BD6EE77B0E5DA38E1 /* Pods-NekoSenseiTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NekoSenseiTests.modulemap"; sourceTree = "<group>"; };
-		32A3334EB719D4D5BF0C0692935ACE73 /* JSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSON.xcconfig; sourceTree = "<group>"; };
-		32F4BB366137FE21052A9EE2CAB4BC19 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		273CA6622BE67B0F0049EB7A67AE2E22 /* R*Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "R*Tree.swift"; path = "SQLite/Extensions/R*Tree.swift"; sourceTree = "<group>"; };
+		29E5D097D66405447CEC4632CF3B00B0 /* Just-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Just-dummy.m"; sourceTree = "<group>"; };
+		30B6BFFB5F231E98357D036987D1FD68 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Source/JSON.swift; sourceTree = "<group>"; };
 		33B51D87D2461C900B66E3E540154F9D /* Pods-NekoSenseiUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoSenseiUITests-frameworks.sh"; sourceTree = "<group>"; };
 		38259A4F1802719F518A96F324DB7450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		387214413B2878F4CF23489B92419A9A /* Pods-NekoSenseiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoSenseiUITests.release.xcconfig"; sourceTree = "<group>"; };
-		38FCFF2D1854724E767504B68007BE30 /* JSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSON-prefix.pch"; sourceTree = "<group>"; };
-		3960B5933EA1A4FB15D29F0147416232 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A50298ACEAE16B9BC452C1BFD293179 /* Pods-NekoSenseiUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NekoSenseiUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3AF44B17C5B1F8081DD97BC44B0194A7 /* Just.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Just.h; path = Just/Just.h; sourceTree = "<group>"; };
 		3CE3E774662E3C16CE38077D4EC37F30 /* Pods-NekoSenseiTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoSenseiTests-frameworks.sh"; sourceTree = "<group>"; };
-		405258127353CF3D8F0E5A8B9A3FFF0E /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "SQLite/Core/SQLite-Bridging.m"; sourceTree = "<group>"; };
-		43564EC1BCF2DD6C3438317B46C69290 /* Pods_NekoSenseiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSenseiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FD81EB2F8DF45B649A0B98EB459CA9 /* Just-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Just-prefix.pch"; sourceTree = "<group>"; };
+		42F8357965D9ADBD7479C5540DBEE32D /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "SQLite/Core/SQLite-Bridging.m"; sourceTree = "<group>"; };
 		44357C6C8585D9C49F382A2BD4AB9E69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48FA8A2FBE0F30EC2FC520C62DD4BB62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F4EEE1FD310EC12648000F1719E3C76 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = SQLite/Core/Value.swift; sourceTree = "<group>"; };
-		53465A2993E90976CE8D1C41BFE7BF93 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
-		59069F92D2D716DBA51D9CD5F1517C38 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		523C77F75088BDB98AAA247E2B24884E /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		598C682FBD730512A835FF19BCF22E02 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
 		5A1542D53B22E96533F6E1687586B480 /* Pods-NekoSenseiTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NekoSenseiTests-dummy.m"; sourceTree = "<group>"; };
-		60DAC126064695B96F92B5ED22CCED85 /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
+		60D745B70656962780DB09259DAF317B /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
 		613124A4F33407BE86436603FDA19FBD /* Pods-NekoSensei-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NekoSensei-acknowledgements.markdown"; sourceTree = "<group>"; };
 		63009822EAD0DC530370E634016CA507 /* Pods-NekoSensei-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoSensei-resources.sh"; sourceTree = "<group>"; };
+		63F6BE019E3759E4C1C069C424A01145 /* Pods_NekoSensei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSensei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B90EF53E05E997642ABFAF920897B98 /* Pods-NekoSensei-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NekoSensei-umbrella.h"; sourceTree = "<group>"; };
-		6FF35C054FA96D3B250017D3D8CED92F /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		6D4862F23F0292F0738C82A44B43DC52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DEEC708043F3D1BA2E8AA54D704F9CC /* Pods_NekoSenseiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSenseiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		741C6445386C9238797912F238545BFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		745F351DEBED2A630F2CB113B8FDD4D4 /* Pods-NekoSenseiTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NekoSenseiTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7470F8B2679A7D79DAF1FCE674C196AE /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = SQLite/Helpers.swift; sourceTree = "<group>"; };
-		7AFFDBF3E211EA6FE6C698F5C32DC474 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = SQLite/Core/fts3_tokenizer.h; sourceTree = "<group>"; };
-		83647E459D13C8BDE97A409940779946 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = SQLite/SQLite.h; sourceTree = "<group>"; };
-		8E7D50F565A6DF20FE79F2E8DB3F2793 /* Pods_NekoSenseiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSenseiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CED1805C1EED933C0487F93E0EBFB6 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		7EB0DFEC7FDFD5C482C8A3050DC54014 /* Just.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Just.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		807381638F79C3904665FA675CF245CF /* Just.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Just.modulemap; sourceTree = "<group>"; };
+		831628ED7C3CD1AB63485F110452B6EA /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFFACBF63515E6C0FEEEA81D696BEDE /* Pods-NekoSenseiUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NekoSenseiUITests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93C1703E39CF336AE322C8E25854A634 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = SQLite/Core/Statement.swift; sourceTree = "<group>"; };
-		93E9006A0ABA9A467A4571E75F44FE0A /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Source/JSON.swift; sourceTree = "<group>"; };
 		9B6D9BB0EF148B4BD0E2D33500418193 /* Pods-NekoSensei-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NekoSensei-acknowledgements.plist"; sourceTree = "<group>"; };
-		9CDE288A3BA337C5D94496710F9404DB /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
-		9DFC6757D0D00FFB458A456A01AF1E9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0FD52CE2574589FA2ED9F9707B8812F /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		9D372CA598301C792FB05C7A01E1105C /* Just.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Just.swift; path = Just/Just.swift; sourceTree = "<group>"; };
 		A162A572B681B8E496136C8BF80DA86D /* Pods-NekoSensei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoSensei.debug.xcconfig"; sourceTree = "<group>"; };
+		A7FA67529172043AB84FF06ED3E408AC /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "SQLite/Core/SQLite-Bridging.h"; sourceTree = "<group>"; };
+		ABCDAB1B15C0ADFC360E0E99BAF0A7D5 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
 		ADC6908E3A032618A0B88FBEFF13CB6A /* Pods-NekoSensei-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NekoSensei-dummy.m"; sourceTree = "<group>"; };
+		AF29A77D1EE297AD44DEB7D9B85E0607 /* Just.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Just.xcconfig; sourceTree = "<group>"; };
 		B03804F9E11B286FD08DF68A5FFE1585 /* Pods-NekoSensei.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NekoSensei.modulemap"; sourceTree = "<group>"; };
+		B05A22408A5B36F02D7361269E947D51 /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
 		B0BCC9E15D6D7EC23B049B6A5B46CB89 /* Pods-NekoSenseiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoSenseiTests.release.xcconfig"; sourceTree = "<group>"; };
-		B5006A539D2D0E6008FFB1F2C23B912A /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
-		B7806CA44D2CE34C5E6F71EF5CDBC244 /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE5D85047558424EA05F6B4F1BC4B1B /* JSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSON-umbrella.h"; sourceTree = "<group>"; };
+		B1F3EA46544896B151209BE3B27D1DBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA35D35D3B9F87C0230B7F58A80078F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFF4765C358D01B6C5CDF7EA1D61A176 /* Pods-NekoSenseiTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NekoSenseiTests-umbrella.h"; sourceTree = "<group>"; };
-		C37B391E5B3C0B4A7FF45A187D79E82F /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "SQLite/Core/SQLite-Bridging.h"; sourceTree = "<group>"; };
-		C4A11124F91A955709C9C60C1F911EBC /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
-		C99E3D16969F6E47F20CB5AF1D56901A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17E29203166C5836F9EFC4C0A6EB5AF /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = SQLite/SQLite.h; sourceTree = "<group>"; };
+		C6AF98766292F8E232EC8B5E4BA46B29 /* JSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JSON.modulemap; sourceTree = "<group>"; };
+		C76B66A9ACDDB80D6D0F070243322D9F /* JSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSON.xcconfig; sourceTree = "<group>"; };
 		C9DCFF1371C0A8971C5021C33B3AE0B8 /* Pods-NekoSensei-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoSensei-frameworks.sh"; sourceTree = "<group>"; };
 		CBB3D2F8A517E66491393A48807EAF2B /* Pods-NekoSenseiTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoSenseiTests-resources.sh"; sourceTree = "<group>"; };
-		D0E452E88B6A94AD9F030CC55859E93C /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
-		D6861D2308E94E409166EF560FF57525 /* JSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSON-dummy.m"; sourceTree = "<group>"; };
+		CED0CF3B7162758AC12C4669432C87D7 /* Pods_NekoSenseiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSenseiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CC6ECB34690191EE597639B9FD4ACC /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = SQLite/Foundation.swift; sourceTree = "<group>"; };
 		D7CD4512961FBE080134B1E630BF59D0 /* Pods-NekoSenseiUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NekoSenseiUITests-dummy.m"; sourceTree = "<group>"; };
+		D8CE3FF14F9AE4DFB9FB9EC9E8E5B7E0 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
 		DA5EE3F7A9E14B98091FE54758434C44 /* Pods-NekoSensei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoSensei.release.xcconfig"; sourceTree = "<group>"; };
-		DFBC41A1B0634E80429C934A49BF5538 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		DE3CA663DB81861D7247909F5F857E52 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = SQLite/Core/fts3_tokenizer.h; sourceTree = "<group>"; };
+		E0641D663F8FF0F5977A6E944478DB17 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		E280AF43B3DD9E80E7051DCA5D685CC3 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = SQLite/Helpers.swift; sourceTree = "<group>"; };
 		E48AD6D6A3E89DF97BAE6FE5AE63BBD9 /* Pods-NekoSenseiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoSenseiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4C541B0E4161B6FB4827E0C529146F7 /* Pods-NekoSenseiUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoSenseiUITests-resources.sh"; sourceTree = "<group>"; };
 		E4CE6BFB09C4730F46DD6687273EE145 /* Pods-NekoSenseiTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NekoSenseiTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EB49D051AF680E2E0D25C2EABDCC1B2D /* Pods_NekoSensei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSensei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEF7D0B06811A3DC281DC0442AC9AFEF /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
-		F68BD8DFEBA77D9BC5C8B7EA6F676815 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		E583675F6F86A8869E7165E7274F5A52 /* JSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSON-dummy.m"; sourceTree = "<group>"; };
+		ED6F521E9C964D3FD961B65F3A002102 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		F14223D02AFB754873612DEEAC6AC378 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		F162D23E10A955F71C451CD47F8FFFF0 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = SQLite/Core/Statement.swift; sourceTree = "<group>"; };
 		FAE25F7D7C37FE773BF887AFF4F733E3 /* Pods-NekoSenseiUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NekoSenseiUITests-umbrella.h"; sourceTree = "<group>"; };
-		FFD4BBECC555FD2FE8EB4E4BF6AC5557 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14EC6121E4567BFF37DB7B9BDEFCD97D /* Frameworks */ = {
+		6A4BC695D247F366733A2B20036E94E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A84011C08F74A5048780923A87C35BF9 /* Cocoa.framework in Frameworks */,
+				D31D5266FC9071A8F6BC17C544CF8118 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,11 +177,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5B5DAAE95629CB154B3B7ABDB252DFD /* Frameworks */ = {
+		7928DFED8BC862AFE8EDEBD490EA5963 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C526AB6F3AA3A94B2408554055094F /* Cocoa.framework in Frameworks */,
+				65C20A50DE6ABEECF37CCC5318834482 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A399061EEF655820AE4AF63ACB7338C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF96C76A679CE61705E87C16DF145C2 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,39 +231,38 @@
 			path = "Target Support Files/Pods-NekoSenseiUITests";
 			sourceTree = "<group>";
 		};
-		2ECECE58B0DAF78F680CFEB44911F2EC /* Pods */ = {
+		14851B9FFBB72D45A9AA258C32E7D4C9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8094C69A5E430CB0E1857F38C8F4217E /* JSON */,
-				FB00AA4025004C9F3B3DB88653EDCCB9 /* SQLite.swift */,
+				B1F3EA46544896B151209BE3B27D1DBD /* Info.plist */,
+				C6AF98766292F8E232EC8B5E4BA46B29 /* JSON.modulemap */,
+				C76B66A9ACDDB80D6D0F070243322D9F /* JSON.xcconfig */,
+				E583675F6F86A8869E7165E7274F5A52 /* JSON-dummy.m */,
+				117D7C1F662A6ED25F44A1491DCA4549 /* JSON-prefix.pch */,
+				190A925CF957C1EBB2D25982C15C8912 /* JSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSON";
+			sourceTree = "<group>";
+		};
+		1FBD6C1CAA0D86C142EA056031CD28CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A519F73357A774EE59519AA0AFDF0DCE /* JSON */,
+				3FF55C38E2BDEF180C3F9EBD8C129432 /* Just */,
+				9E7F9DAA1C2BFBFBC899AE94122EEA1F /* SQLite.swift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		442D17AE09B4680FDD022275CC4FB0DE /* Products */ = {
+		3FF55C38E2BDEF180C3F9EBD8C129432 /* Just */ = {
 			isa = PBXGroup;
 			children = (
-				B7806CA44D2CE34C5E6F71EF5CDBC244 /* JSON.framework */,
-				EB49D051AF680E2E0D25C2EABDCC1B2D /* Pods_NekoSensei.framework */,
-				43564EC1BCF2DD6C3438317B46C69290 /* Pods_NekoSenseiTests.framework */,
-				8E7D50F565A6DF20FE79F2E8DB3F2793 /* Pods_NekoSenseiUITests.framework */,
-				3960B5933EA1A4FB15D29F0147416232 /* SQLite.framework */,
+				3AF44B17C5B1F8081DD97BC44B0194A7 /* Just.h */,
+				9D372CA598301C792FB05C7A01E1105C /* Just.swift */,
+				CD9F5401E1C0EB55A6768D467C18159F /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		450C6075B2439972BEF731E10E9AAD57 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9DFC6757D0D00FFB458A456A01AF1E9C /* Info.plist */,
-				1BA5373FDB74A0C663200D51A56B1822 /* JSON.modulemap */,
-				32A3334EB719D4D5BF0C0692935ACE73 /* JSON.xcconfig */,
-				D6861D2308E94E409166EF560FF57525 /* JSON-dummy.m */,
-				38FCFF2D1854724E767504B68007BE30 /* JSON-prefix.pch */,
-				BEE5D85047558424EA05F6B4F1BC4B1B /* JSON-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JSON";
+			path = Just;
 			sourceTree = "<group>";
 		};
 		54852304B31B69CB99C4B77A37D6E6E9 /* Pods-NekoSensei */ = {
@@ -273,24 +301,94 @@
 			path = "Target Support Files/Pods-NekoSenseiTests";
 			sourceTree = "<group>";
 		};
+		6DE1E8A64A8DDD8D8B322F275FF1B9F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831628ED7C3CD1AB63485F110452B6EA /* JSON.framework */,
+				7EB0DFEC7FDFD5C482C8A3050DC54014 /* Just.framework */,
+				63F6BE019E3759E4C1C069C424A01145 /* Pods_NekoSensei.framework */,
+				6DEEC708043F3D1BA2E8AA54D704F9CC /* Pods_NekoSenseiTests.framework */,
+				CED0CF3B7162758AC12C4669432C87D7 /* Pods_NekoSenseiUITests.framework */,
+				04513BA6AB15AFFE0C1676C5BB595F26 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
-				2ECECE58B0DAF78F680CFEB44911F2EC /* Pods */,
-				442D17AE09B4680FDD022275CC4FB0DE /* Products */,
+				1FBD6C1CAA0D86C142EA056031CD28CA /* Pods */,
+				6DE1E8A64A8DDD8D8B322F275FF1B9F9 /* Products */,
 				E3841EDCF7481B40D4C71F37237F5789 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8094C69A5E430CB0E1857F38C8F4217E /* JSON */ = {
+		9E7F9DAA1C2BFBFBC899AE94122EEA1F /* SQLite.swift */ = {
 			isa = PBXGroup;
 			children = (
-				93E9006A0ABA9A467A4571E75F44FE0A /* JSON.swift */,
-				450C6075B2439972BEF731E10E9AAD57 /* Support Files */,
+				598C682FBD730512A835FF19BCF22E02 /* AggregateFunctions.swift */,
+				1CDAF4635D5AA4184830BA1DFEAA59C6 /* Blob.swift */,
+				D8CE3FF14F9AE4DFB9FB9EC9E8E5B7E0 /* Collation.swift */,
+				0DCD0E96842B22CC20D4D638A4734824 /* Connection.swift */,
+				112D36E0D815B0021D60440F61ACBEA5 /* CoreFunctions.swift */,
+				F14223D02AFB754873612DEEAC6AC378 /* CustomFunctions.swift */,
+				ABCDAB1B15C0ADFC360E0E99BAF0A7D5 /* Expression.swift */,
+				D2CC6ECB34690191EE597639B9FD4ACC /* Foundation.swift */,
+				DE3CA663DB81861D7247909F5F857E52 /* fts3_tokenizer.h */,
+				60D745B70656962780DB09259DAF317B /* FTS4.swift */,
+				E280AF43B3DD9E80E7051DCA5D685CC3 /* Helpers.swift */,
+				76CED1805C1EED933C0487F93E0EBFB6 /* Operators.swift */,
+				0E3F82284225D15CEA61DD1C39A90654 /* Query.swift */,
+				273CA6622BE67B0F0049EB7A67AE2E22 /* R*Tree.swift */,
+				E0641D663F8FF0F5977A6E944478DB17 /* Schema.swift */,
+				0B5C99E5E8DE509DF9CA936EC7EE2C2E /* Setter.swift */,
+				C17E29203166C5836F9EFC4C0A6EB5AF /* SQLite.h */,
+				A7FA67529172043AB84FF06ED3E408AC /* SQLite-Bridging.h */,
+				42F8357965D9ADBD7479C5540DBEE32D /* SQLite-Bridging.m */,
+				F162D23E10A955F71C451CD47F8FFFF0 /* Statement.swift */,
+				ED6F521E9C964D3FD961B65F3A002102 /* Value.swift */,
+				CB0FCC439894891A4FBB7AFC8CE80FDD /* Support Files */,
+			);
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		A519F73357A774EE59519AA0AFDF0DCE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				30B6BFFB5F231E98357D036987D1FD68 /* JSON.swift */,
+				14851B9FFBB72D45A9AA258C32E7D4C9 /* Support Files */,
 			);
 			path = JSON;
+			sourceTree = "<group>";
+		};
+		CB0FCC439894891A4FBB7AFC8CE80FDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D4862F23F0292F0738C82A44B43DC52 /* Info.plist */,
+				0E9861FCE4ACA66353216B71E82E04DB /* SQLite.swift.modulemap */,
+				B05A22408A5B36F02D7361269E947D51 /* SQLite.swift.xcconfig */,
+				523C77F75088BDB98AAA247E2B24884E /* SQLite.swift-dummy.m */,
+				1807F4077761C7901C708457325E96FB /* SQLite.swift-prefix.pch */,
+				2207B5EC3CDC8438FDFEBEAA57577B46 /* SQLite.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		CD9F5401E1C0EB55A6768D467C18159F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA35D35D3B9F87C0230B7F58A80078F9 /* Info.plist */,
+				807381638F79C3904665FA675CF245CF /* Just.modulemap */,
+				AF29A77D1EE297AD44DEB7D9B85E0607 /* Just.xcconfig */,
+				29E5D097D66405447CEC4632CF3B00B0 /* Just-dummy.m */,
+				40FD81EB2F8DF45B649A0B98EB459CA9 /* Just-prefix.pch */,
+				1CB779EDC5B556B6951C79C0F4043B6D /* Just-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Just";
 			sourceTree = "<group>";
 		};
 		D3231B1AB8A6FE7C4A23148088E06A4E /* OS X */ = {
@@ -320,49 +418,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FB00AA4025004C9F3B3DB88653EDCCB9 /* SQLite.swift */ = {
-			isa = PBXGroup;
-			children = (
-				0478B0FC2B4695FFAE8A4A085E8C5ED1 /* AggregateFunctions.swift */,
-				A0FD52CE2574589FA2ED9F9707B8812F /* Blob.swift */,
-				FFD4BBECC555FD2FE8EB4E4BF6AC5557 /* Collation.swift */,
-				DFBC41A1B0634E80429C934A49BF5538 /* Connection.swift */,
-				01D6B8C1A9C436D775D975CB17757EFF /* CoreFunctions.swift */,
-				D0E452E88B6A94AD9F030CC55859E93C /* CustomFunctions.swift */,
-				1955F88E5E4114DCBC8C4FD71D9D1ACA /* Expression.swift */,
-				004281D6153C5427B9235A94CB553484 /* Foundation.swift */,
-				7AFFDBF3E211EA6FE6C698F5C32DC474 /* fts3_tokenizer.h */,
-				EEF7D0B06811A3DC281DC0442AC9AFEF /* FTS4.swift */,
-				7470F8B2679A7D79DAF1FCE674C196AE /* Helpers.swift */,
-				B5006A539D2D0E6008FFB1F2C23B912A /* Operators.swift */,
-				6FF35C054FA96D3B250017D3D8CED92F /* Query.swift */,
-				17193946421DA3B91A2609FB28284780 /* R*Tree.swift */,
-				32F4BB366137FE21052A9EE2CAB4BC19 /* Schema.swift */,
-				C4A11124F91A955709C9C60C1F911EBC /* Setter.swift */,
-				83647E459D13C8BDE97A409940779946 /* SQLite.h */,
-				C37B391E5B3C0B4A7FF45A187D79E82F /* SQLite-Bridging.h */,
-				405258127353CF3D8F0E5A8B9A3FFF0E /* SQLite-Bridging.m */,
-				93C1703E39CF336AE322C8E25854A634 /* Statement.swift */,
-				4F4EEE1FD310EC12648000F1719E3C76 /* Value.swift */,
-				FF59721ED90EED93B46874DEAC5D9E82 /* Support Files */,
-			);
-			path = SQLite.swift;
-			sourceTree = "<group>";
-		};
-		FF59721ED90EED93B46874DEAC5D9E82 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C99E3D16969F6E47F20CB5AF1D56901A /* Info.plist */,
-				59069F92D2D716DBA51D9CD5F1517C38 /* SQLite.swift.modulemap */,
-				60DAC126064695B96F92B5ED22CCED85 /* SQLite.swift.xcconfig */,
-				53465A2993E90976CE8D1C41BFE7BF93 /* SQLite.swift-dummy.m */,
-				9CDE288A3BA337C5D94496710F9404DB /* SQLite.swift-prefix.pch */,
-				F68BD8DFEBA77D9BC5C8B7EA6F676815 /* SQLite.swift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SQLite.swift";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -390,28 +445,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3A52324BB657AAE8A6B650114BBBE24 /* Headers */ = {
+		8C60E36F5049B49AFCBB964FC85A7896 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A19F67BD36414F8175A30FB6EBBF6D88 /* fts3_tokenizer.h in Headers */,
-				752902E09CCE0F29D08FC531A01C98A3 /* SQLite-Bridging.h in Headers */,
-				5988537E7261269B970A264C0A8B9F3B /* SQLite.h in Headers */,
-				F974643E14ACB19827C3C053AB95C09A /* SQLite.swift-umbrella.h in Headers */,
+				0007A475E674B5F9B88252DA7A6281DA /* Just-umbrella.h in Headers */,
+				13A844B17CC835EF8251653DBF9C4B7D /* Just.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB7AF3413DF071C5670B3CE9441B8183 /* Headers */ = {
+		90ED24DF29719E37F1D19F20E6963112 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9611B65CB7D30F929F0610926160898 /* Pods-NekoSensei-umbrella.h in Headers */,
+				7038E397AA5C611118543E4BAA8FA9B0 /* Pods-NekoSensei-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7249553DE16BF8AFFF75AC42D9C926C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400397533BF54EBE9D9DF8B022CCA89C /* fts3_tokenizer.h in Headers */,
+				A945B632645C7BD972B1D8AD4BEA9A45 /* SQLite-Bridging.h in Headers */,
+				CA400FDE8A22DB8D9894EF8E66317BF5 /* SQLite.h in Headers */,
+				40C44B7F3AE9DCE3FBC2C0933710767F /* SQLite.swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0121BA2B9A770E93F20E8DEB393F1EB7 /* Just */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC5AAA6568FA9C228AA6275D74C1381 /* Build configuration list for PBXNativeTarget "Just" */;
+			buildPhases = (
+				34B78BF6577852D9DDB4A42E3F4C9966 /* Sources */,
+				6A4BC695D247F366733A2B20036E94E8 /* Frameworks */,
+				8C60E36F5049B49AFCBB964FC85A7896 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Just;
+			productName = Just;
+			productReference = 7EB0DFEC7FDFD5C482C8A3050DC54014 /* Just.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		013782750F4E32BB896D767CBC607C62 /* Pods-NekoSenseiTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 853E22C888961EFBC9EEEF0B2DAA2B6B /* Build configuration list for PBXNativeTarget "Pods-NekoSenseiTests" */;
@@ -426,7 +507,7 @@
 			);
 			name = "Pods-NekoSenseiTests";
 			productName = "Pods-NekoSenseiTests";
-			productReference = 43564EC1BCF2DD6C3438317B46C69290 /* Pods_NekoSenseiTests.framework */;
+			productReference = 6DEEC708043F3D1BA2E8AA54D704F9CC /* Pods_NekoSenseiTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		057B467BD5591A42CFFBF5202F6EAB8E /* Pods-NekoSenseiUITests */ = {
@@ -443,35 +524,36 @@
 			);
 			name = "Pods-NekoSenseiUITests";
 			productName = "Pods-NekoSenseiUITests";
-			productReference = 8E7D50F565A6DF20FE79F2E8DB3F2793 /* Pods_NekoSenseiUITests.framework */;
+			productReference = CED0CF3B7162758AC12C4669432C87D7 /* Pods_NekoSenseiUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0931470E03DDF5D5B8C7CE72E2E4FF8A /* Pods-NekoSensei */ = {
+		6A4B8D46E27B83F783926FE9DB865FE5 /* Pods-NekoSensei */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F5B13D6E13800856CB911F36F44F740 /* Build configuration list for PBXNativeTarget "Pods-NekoSensei" */;
+			buildConfigurationList = 645FA9416418541A38DF3848F83BADB7 /* Build configuration list for PBXNativeTarget "Pods-NekoSensei" */;
 			buildPhases = (
-				05B46F9B73CA07EA38EEA90C61FBDC82 /* Sources */,
-				14EC6121E4567BFF37DB7B9BDEFCD97D /* Frameworks */,
-				DB7AF3413DF071C5670B3CE9441B8183 /* Headers */,
+				E592705C64544EA670EA443ACB4C480F /* Sources */,
+				7928DFED8BC862AFE8EDEBD490EA5963 /* Frameworks */,
+				90ED24DF29719E37F1D19F20E6963112 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BF1FA6F3652340638548C13F933B7FDA /* PBXTargetDependency */,
-				C473D640AE425B913C2B0B841268795A /* PBXTargetDependency */,
+				C14848AC7FD81B83B180587C6E9D4084 /* PBXTargetDependency */,
+				2574F4E833FD6325850BF44F42B88527 /* PBXTargetDependency */,
+				E39E94277C51A70FB53158703A225A85 /* PBXTargetDependency */,
 			);
 			name = "Pods-NekoSensei";
 			productName = "Pods-NekoSensei";
-			productReference = EB49D051AF680E2E0D25C2EABDCC1B2D /* Pods_NekoSensei.framework */;
+			productReference = 63F6BE019E3759E4C1C069C424A01145 /* Pods_NekoSensei.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		96B5A70BEFE679DD0E3B485AFC1E78FE /* SQLite.swift */ = {
+		B0458C38041FEE206CD0DB2576124527 /* SQLite.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A87F2B16D7D391F1894CC3CF6E0BDF86 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildConfigurationList = 10A22C3BB70ABCF593DC8F558B3DD9C4 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
 			buildPhases = (
-				4FB60D9FE4386D5E53389F631F27F63C /* Sources */,
-				A5B5DAAE95629CB154B3B7ABDB252DFD /* Frameworks */,
-				C3A52324BB657AAE8A6B650114BBBE24 /* Headers */,
+				6B2D73539EBA2BC2FBD39DBBBB1CF886 /* Sources */,
+				A399061EEF655820AE4AF63ACB7338C1 /* Frameworks */,
+				B7249553DE16BF8AFFF75AC42D9C926C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -479,7 +561,7 @@
 			);
 			name = SQLite.swift;
 			productName = SQLite.swift;
-			productReference = 3960B5933EA1A4FB15D29F0147416232 /* SQLite.framework */;
+			productReference = 04513BA6AB15AFFE0C1676C5BB595F26 /* SQLite.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EADE475E724F3C0E7B4D9F93C20C6503 /* JSON */ = {
@@ -496,7 +578,7 @@
 			);
 			name = JSON;
 			productName = JSON;
-			productReference = B7806CA44D2CE34C5E6F71EF5CDBC244 /* JSON.framework */;
+			productReference = 831628ED7C3CD1AB63485F110452B6EA /* JSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -516,28 +598,21 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 442D17AE09B4680FDD022275CC4FB0DE /* Products */;
+			productRefGroup = 6DE1E8A64A8DDD8D8B322F275FF1B9F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EADE475E724F3C0E7B4D9F93C20C6503 /* JSON */,
-				0931470E03DDF5D5B8C7CE72E2E4FF8A /* Pods-NekoSensei */,
+				0121BA2B9A770E93F20E8DEB393F1EB7 /* Just */,
+				6A4B8D46E27B83F783926FE9DB865FE5 /* Pods-NekoSensei */,
 				013782750F4E32BB896D767CBC607C62 /* Pods-NekoSenseiTests */,
 				057B467BD5591A42CFFBF5202F6EAB8E /* Pods-NekoSenseiUITests */,
-				96B5A70BEFE679DD0E3B485AFC1E78FE /* SQLite.swift */,
+				B0458C38041FEE206CD0DB2576124527 /* SQLite.swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05B46F9B73CA07EA38EEA90C61FBDC82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF1C868E0A6D9D6BA54FC2B7072D464D /* Pods-NekoSensei-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C9C27ABFB6FE67D932393ED2A8F0CBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,29 +621,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FB60D9FE4386D5E53389F631F27F63C /* Sources */ = {
+		34B78BF6577852D9DDB4A42E3F4C9966 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A909221CA8BEB2DB2B1D6C8DAA53D2 /* AggregateFunctions.swift in Sources */,
-				0072F7716E7F8DA2F05AE2DAD59CDF89 /* Blob.swift in Sources */,
-				D0B3DE48D3EC358F8B4969CB33FD24FE /* Collation.swift in Sources */,
-				C06CB3D8AA7BBE79B9B55DFD37FE6AB0 /* Connection.swift in Sources */,
-				CD0F562DCA4F7DEDDB9D8F3234A67F08 /* CoreFunctions.swift in Sources */,
-				E01384D7D3E289211A60B154EB2F2FA0 /* CustomFunctions.swift in Sources */,
-				63B34702B818B42370D4B44E03DD4F5E /* Expression.swift in Sources */,
-				4EBA58F3B2E3D16DD36CB9969107B23B /* Foundation.swift in Sources */,
-				C2086CF2A1618C47E3148918C7C42A48 /* FTS4.swift in Sources */,
-				D6CA3A71A49F47ACD1D50ED47DA2055B /* Helpers.swift in Sources */,
-				29A63DC42F071F2B9188E39C7CEB5AB6 /* Operators.swift in Sources */,
-				462B3252860AB3F81E6BA11A5E6467FC /* Query.swift in Sources */,
-				04CD73BAF33451E647B311D9E9DC0D82 /* R*Tree.swift in Sources */,
-				A8450D9E38EC455B5AF6359236A5E699 /* Schema.swift in Sources */,
-				103120174F36ED68D45F0C13460F240F /* Setter.swift in Sources */,
-				FEB7ABC6349C93B9A59B0A71C6BF07E1 /* SQLite-Bridging.m in Sources */,
-				48037B97334C01D6893FEFB9ACBEBBF5 /* SQLite.swift-dummy.m in Sources */,
-				5F42130D7FE76BB1EAFAC427CA3A8B0C /* Statement.swift in Sources */,
-				42F127DB5AFC220DBD34826727CDA72A /* Value.swift in Sources */,
+				985F773894D90C3CD55E32D09C0B966C /* Just-dummy.m in Sources */,
+				C8886730B063E812F264979F8EA5B462 /* Just.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2D73539EBA2BC2FBD39DBBBB1CF886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828ED2604F60727D37C465F5FFEB48FD /* AggregateFunctions.swift in Sources */,
+				C8E79943EDFEB697C732D2EF581436C1 /* Blob.swift in Sources */,
+				5CB32B7344B04F0D515B62EEB9A347C6 /* Collation.swift in Sources */,
+				2E38C08F388C8D873A6221C54EB7D600 /* Connection.swift in Sources */,
+				6285C593180C8E7C3C1D4C8CA745FF81 /* CoreFunctions.swift in Sources */,
+				AF8F0973741C22BBB7989A4123630211 /* CustomFunctions.swift in Sources */,
+				7FA022354AF9A51EE273CF6FE4ADE8CC /* Expression.swift in Sources */,
+				DA060F008169ADBF9F0FC0E8F9986023 /* Foundation.swift in Sources */,
+				4A9DA9BA4371AED627EA30B8DD4B6571 /* FTS4.swift in Sources */,
+				E967073806DFC20AB27EB06872935C0A /* Helpers.swift in Sources */,
+				86ECC96EEEAD6210A0A615D441E1B034 /* Operators.swift in Sources */,
+				6A5DF085F7926522E24903F2FF1329B2 /* Query.swift in Sources */,
+				71104E1C3195E24761AF4C3E3195AE13 /* R*Tree.swift in Sources */,
+				9472F19D82368B3676010DD4A7CBCB68 /* Schema.swift in Sources */,
+				CE5FFABEB69C959E50EB82B06D887CCD /* Setter.swift in Sources */,
+				082898FFF09C1D87E7F77AB3B1156CB8 /* SQLite-Bridging.m in Sources */,
+				7AC29D2D651CEAE342869AA31BB2609B /* SQLite.swift-dummy.m in Sources */,
+				98F013DEF49B1AF653D707ED09231B57 /* Statement.swift in Sources */,
+				47996912E0DF70D825B8AE34B1D67407 /* Value.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,20 +673,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E592705C64544EA670EA443ACB4C480F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6892DA725A62AA15ED6C9A473EFCD2 /* Pods-NekoSensei-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BF1FA6F3652340638548C13F933B7FDA /* PBXTargetDependency */ = {
+		2574F4E833FD6325850BF44F42B88527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Just;
+			target = 0121BA2B9A770E93F20E8DEB393F1EB7 /* Just */;
+			targetProxy = 64770FDF5A6583C45C5A15348BD0533A /* PBXContainerItemProxy */;
+		};
+		C14848AC7FD81B83B180587C6E9D4084 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JSON;
 			target = EADE475E724F3C0E7B4D9F93C20C6503 /* JSON */;
-			targetProxy = B54D0788AC8266B930A53FC81510092D /* PBXContainerItemProxy */;
+			targetProxy = A067E5DC2EEFB95FDA20E9AF2932B9F1 /* PBXContainerItemProxy */;
 		};
-		C473D640AE425B913C2B0B841268795A /* PBXTargetDependency */ = {
+		E39E94277C51A70FB53158703A225A85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SQLite.swift;
-			target = 96B5A70BEFE679DD0E3B485AFC1E78FE /* SQLite.swift */;
-			targetProxy = CF8B54ED0DFA6FB5053D36AC5D576265 /* PBXContainerItemProxy */;
+			target = B0458C38041FEE206CD0DB2576124527 /* SQLite.swift */;
+			targetProxy = D8E638AFFD8309E9CF08288C40600002 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -651,7 +749,7 @@
 		};
 		2D0328351341AC2D98D85F60BE11F9F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32A3334EB719D4D5BF0C0692935ACE73 /* JSON.xcconfig */;
+			baseConfigurationReference = C76B66A9ACDDB80D6D0F070243322D9F /* JSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -712,6 +810,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		32AC647F8BE145CA66E0DDF19B747BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A162A572B681B8E496136C8BF80DA86D /* Pods-NekoSensei.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NekoSensei/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-NekoSensei/Pods-NekoSensei.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NekoSensei;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		430A66CDDA95EF14461CD5912C33F2DA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -787,7 +920,7 @@
 		};
 		73E4BE3883D0D12EC0301606265A187A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32A3334EB719D4D5BF0C0692935ACE73 /* JSON.xcconfig */;
+			baseConfigurationReference = C76B66A9ACDDB80D6D0F070243322D9F /* JSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -850,73 +983,9 @@
 			};
 			name = Release;
 		};
-		C0A0AD7DCAE72DCB2BCCB6E27FC75CF6 /* Release */ = {
+		9C2B6AB479F134864EFA2E259864CE6D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60DAC126064695B96F92B5ED22CCED85 /* SQLite.swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SQLite;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C3EB32E5DA256D5F5C8EFB38A9775047 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA5EE3F7A9E14B98091FE54758434C44 /* Pods-NekoSensei.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NekoSensei/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-NekoSensei/Pods-NekoSensei.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NekoSensei;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C531235FB76A44F7473F1FBAB8B05E9F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A162A572B681B8E496136C8BF80DA86D /* Pods-NekoSensei.debug.xcconfig */;
+			baseConfigurationReference = AF29A77D1EE297AD44DEB7D9B85E0607 /* Just.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -929,18 +998,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NekoSensei/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Just/Just-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Just/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-NekoSensei/Pods-NekoSensei.modulemap";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Just/Just.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NekoSensei;
+				PRODUCT_NAME = Just;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -948,6 +1013,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		BC0903F65508F73D60A7D35B12B55ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF29A77D1EE297AD44DEB7D9B85E0607 /* Just.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Just/Just-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Just/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Just/Just.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Just;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CC6DB592915E58638F7ED0E2F8B2B4C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -983,9 +1078,73 @@
 			};
 			name = Debug;
 		};
-		DA27B241BBCB2F080EBE75A8C6ED7D18 /* Debug */ = {
+		CE680534F804E290BAAB7AB553703115 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60DAC126064695B96F92B5ED22CCED85 /* SQLite.swift.xcconfig */;
+			baseConfigurationReference = DA5EE3F7A9E14B98091FE54758434C44 /* Pods-NekoSensei.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NekoSensei/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-NekoSensei/Pods-NekoSensei.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NekoSensei;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D01D3EFFEAF80EB7349CBEFBFEC9DA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05A22408A5B36F02D7361269E947D51 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7E1D6DA3D845AA1246BD1BB55E8CBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05A22408A5B36F02D7361269E947D51 /* SQLite.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1026,6 +1185,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		10A22C3BB70ABCF593DC8F558B3DD9C4 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E1D6DA3D845AA1246BD1BB55E8CBD9 /* Debug */,
+				D01D3EFFEAF80EB7349CBEFBFEC9DA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1035,11 +1203,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F5B13D6E13800856CB911F36F44F740 /* Build configuration list for PBXNativeTarget "Pods-NekoSensei" */ = {
+		645FA9416418541A38DF3848F83BADB7 /* Build configuration list for PBXNativeTarget "Pods-NekoSensei" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C531235FB76A44F7473F1FBAB8B05E9F /* Debug */,
-				C3EB32E5DA256D5F5C8EFB38A9775047 /* Release */,
+				32AC647F8BE145CA66E0DDF19B747BEA /* Debug */,
+				CE680534F804E290BAAB7AB553703115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC5AAA6568FA9C228AA6275D74C1381 /* Build configuration list for PBXNativeTarget "Just" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2B6AB479F134864EFA2E259864CE6D /* Debug */,
+				BC0903F65508F73D60A7D35B12B55ADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1049,15 +1226,6 @@
 			buildConfigurations = (
 				430A66CDDA95EF14461CD5912C33F2DA /* Debug */,
 				2F173B69B15836B57171F7783603BD05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A87F2B16D7D391F1894CC3CF6E0BDF86 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA27B241BBCB2F080EBE75A8C6ED7D18 /* Debug */,
-				C0A0AD7DCAE72DCB2BCCB6E27FC75CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

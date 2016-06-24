@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Just.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-NekoSensei.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,6 +37,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0121BA2B9A770E93F20E8DEB393F1EB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>013782750F4E32BB896D767CBC607C62</key>
 		<dict>
 			<key>primary</key>
@@ -42,12 +52,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0931470E03DDF5D5B8C7CE72E2E4FF8A</key>
+		<key>6A4B8D46E27B83F783926FE9DB865FE5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96B5A70BEFE679DD0E3B485AFC1E78FE</key>
+		<key>B0458C38041FEE206CD0DB2576124527</key>
 		<dict>
 			<key>primary</key>
 			<true/>

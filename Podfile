@@ -8,6 +8,8 @@ target 'NekoSensei' do
   # Pods for NekoSensei
   pod 'SQLite.swift', '~> 0.10.1'
   pod 'JSON'
+  pod 'Just'
+  
   target 'NekoSenseiTests' do
     inherit! :search_paths
     # Pods for testing

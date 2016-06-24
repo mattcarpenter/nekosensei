@@ -1,15 +1,18 @@
 PODS:
   - JSON (4.0.2)
+  - Just (0.4.7)
   - SQLite.swift (0.10.1)
 
 DEPENDENCIES:
   - JSON
+  - Just
   - SQLite.swift (~> 0.10.1)
 
 SPEC CHECKSUMS:
   JSON: d08f22c3e523be050d5d5f40bca43ec02d95b2cc
+  Just: 946bae197f898da6b49e27e10dbe9dfbf1216f29
   SQLite.swift: 6a6e4b034efc317ce4e203b6af2d3024fee2b570
 
-PODFILE CHECKSUM: 42b2d477c1683ec61cbd74c9338a31a4dfe314e9
+PODFILE CHECKSUM: 22de8c219d733b546d3d913167f15ae808c2b66e
 
 COCOAPODS: 1.0.1

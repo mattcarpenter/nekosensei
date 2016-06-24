@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:NekoSensei.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:NekoSensei.xcodeproj">
    </FileRef>
    <FileRef

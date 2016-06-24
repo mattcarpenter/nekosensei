@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91F45AD074325905313BA4F7 /* Pods_NekoSenseiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B28DFC26C43550F36F8B1E /* Pods_NekoSenseiTests.framework */; };
-		9CB392E87657DAD2FE7BB755 /* Pods_NekoSenseiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623CB9A142E610B15F9840F0 /* Pods_NekoSenseiUITests.framework */; };
-		A2557715A0231E2BCC34EEB1 /* Pods_NekoSensei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A801B418753D8C8859C9761 /* Pods_NekoSensei.framework */; };
+		5509B9AB4D5EACB74041D820 /* Pods_NekoSensei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321993C577F7929FF4CE0CCB /* Pods_NekoSensei.framework */; };
+		8A06778221E7B9DB8E17E152 /* Pods_NekoSenseiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDBE8CA978479B3EBF716E /* Pods_NekoSenseiUITests.framework */; };
+		B26BA5F9CF700E111118A197 /* Pods_NekoSenseiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE086C2CF075ED246E738B9 /* Pods_NekoSenseiTests.framework */; };
 		C918FF3D1D161B5D003510BC /* dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = C918FF3C1D161B5D003510BC /* dictionary.json */; };
 		C918FF3F1D162DB0003510BC /* TTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918FF3E1D162DB0003510BC /* TTS.swift */; };
 		C918FF431D1A3E33003510BC /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918FF421D1A3E33003510BC /* MainWindowController.swift */; };
 		C918FF451D1B6139003510BC /* neko.png in Resources */ = {isa = PBXBuildFile; fileRef = C918FF441D1B6139003510BC /* neko.png */; };
+		C918FF491D1CBDB5003510BC /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918FF481D1CBDB5003510BC /* Translator.swift */; };
 		C95E1FF21D15D9260036D099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E1FF11D15D9260036D099 /* AppDelegate.swift */; };
 		C95E1FF41D15D9260036D099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95E1FF31D15D9260036D099 /* Assets.xcassets */; };
 		C95E1FF71D15D9260036D099 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95E1FF51D15D9260036D099 /* MainMenu.xib */; };
 		C95E20021D15D9260036D099 /* NekoSenseiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E20011D15D9260036D099 /* NekoSenseiTests.swift */; };
 		C95E200D1D15D9260036D099 /* NekoSenseiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E200C1D15D9260036D099 /* NekoSenseiUITests.swift */; };
+		C96E8E531D1CD9B4007CAB98 /* Polyglot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E8E521D1CD9B4007CAB98 /* Polyglot.swift */; };
+		C96E8E551D1CD9C7007CAB98 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E8E541D1CD9C7007CAB98 /* Session.swift */; };
+		C96E8E571D1CD9F3007CAB98 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E8E561D1CD9F3007CAB98 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28D2AFFBE84AEF389D3B0E02 /* Pods-NekoSenseiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSenseiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSenseiTests/Pods-NekoSenseiTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3B74AD25029E07950C91EA4F /* Pods-NekoSensei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSensei.release.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSensei/Pods-NekoSensei.release.xcconfig"; sourceTree = "<group>"; };
-		61270D37156C6510EB16665E /* Pods-NekoSenseiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSenseiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSenseiTests/Pods-NekoSenseiTests.release.xcconfig"; sourceTree = "<group>"; };
-		623CB9A142E610B15F9840F0 /* Pods_NekoSenseiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSenseiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8640D1DD3696694E9A6D0436 /* Pods-NekoSenseiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSenseiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSenseiUITests/Pods-NekoSenseiUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A801B418753D8C8859C9761 /* Pods_NekoSensei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSensei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92B28DFC26C43550F36F8B1E /* Pods_NekoSenseiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSenseiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5A122A3FD21D12317A7E0F9 /* Pods-NekoSensei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSensei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSensei/Pods-NekoSensei.debug.xcconfig"; sourceTree = "<group>"; };
+		094DB8ED8DCD7347FF5A8D43 /* Pods-NekoSenseiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSenseiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSenseiUITests/Pods-NekoSenseiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2559A07289A4BBDA67555248 /* Pods-NekoSensei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSensei.release.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSensei/Pods-NekoSensei.release.xcconfig"; sourceTree = "<group>"; };
+		321993C577F7929FF4CE0CCB /* Pods_NekoSensei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSensei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FDBE8CA978479B3EBF716E /* Pods_NekoSenseiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSenseiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4D9336CA22E45E84456796 /* Pods-NekoSenseiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSenseiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSenseiTests/Pods-NekoSenseiTests.release.xcconfig"; sourceTree = "<group>"; };
 		C918FF3C1D161B5D003510BC /* dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dictionary.json; sourceTree = "<group>"; };
 		C918FF3E1D162DB0003510BC /* TTS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTS.swift; sourceTree = "<group>"; };
 		C918FF421D1A3E33003510BC /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainWindowController.swift; path = ../MainWindowController.swift; sourceTree = "<group>"; };
 		C918FF441D1B6139003510BC /* neko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neko.png; sourceTree = "<group>"; };
+		C918FF481D1CBDB5003510BC /* Translator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
 		C95E1FEE1D15D9260036D099 /* NekoSensei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekoSensei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95E1FF11D15D9260036D099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C95E1FF31D15D9260036D099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +64,13 @@
 		C95E20081D15D9260036D099 /* NekoSenseiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NekoSenseiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95E200C1D15D9260036D099 /* NekoSenseiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoSenseiUITests.swift; sourceTree = "<group>"; };
 		C95E200E1D15D9260036D099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D39B3C5830D915669A181EFF /* Pods-NekoSenseiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSenseiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSenseiUITests/Pods-NekoSenseiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C96E8E521D1CD9B4007CAB98 /* Polyglot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polyglot.swift; sourceTree = "<group>"; };
+		C96E8E541D1CD9C7007CAB98 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		C96E8E561D1CD9F3007CAB98 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E75BE485FF3BD8B3344654F5 /* Pods-NekoSenseiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSenseiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSenseiUITests/Pods-NekoSenseiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E792A9E7A1210F840320B25C /* Pods-NekoSensei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSensei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSensei/Pods-NekoSensei.debug.xcconfig"; sourceTree = "<group>"; };
+		EA44170E13917EB3B7211525 /* Pods-NekoSenseiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSenseiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSenseiTests/Pods-NekoSenseiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE086C2CF075ED246E738B9 /* Pods_NekoSenseiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoSenseiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2557715A0231E2BCC34EEB1 /* Pods_NekoSensei.framework in Frameworks */,
+				5509B9AB4D5EACB74041D820 /* Pods_NekoSensei.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91F45AD074325905313BA4F7 /* Pods_NekoSenseiTests.framework in Frameworks */,
+				B26BA5F9CF700E111118A197 /* Pods_NekoSenseiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,19 +94,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CB392E87657DAD2FE7BB755 /* Pods_NekoSenseiUITests.framework in Frameworks */,
+				8A06778221E7B9DB8E17E152 /* Pods_NekoSenseiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		646C575D8BA99CDCF07898F0 /* Frameworks */ = {
+		570A2CE751553831D8670BE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A801B418753D8C8859C9761 /* Pods_NekoSensei.framework */,
-				92B28DFC26C43550F36F8B1E /* Pods_NekoSenseiTests.framework */,
-				623CB9A142E610B15F9840F0 /* Pods_NekoSenseiUITests.framework */,
+				321993C577F7929FF4CE0CCB /* Pods_NekoSensei.framework */,
+				EBE086C2CF075ED246E738B9 /* Pods_NekoSenseiTests.framework */,
+				58FDBE8CA978479B3EBF716E /* Pods_NekoSenseiUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,8 +127,8 @@
 				C95E20001D15D9260036D099 /* NekoSenseiTests */,
 				C95E200B1D15D9260036D099 /* NekoSenseiUITests */,
 				C95E1FEF1D15D9260036D099 /* Products */,
-				D7533D9618A5F87D760ED71C /* Pods */,
-				646C575D8BA99CDCF07898F0 /* Frameworks */,
+				D2568C974751598CA8B0DF15 /* Pods */,
+				570A2CE751553831D8670BE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +152,10 @@
 				C95E1FF51D15D9260036D099 /* MainMenu.xib */,
 				C95E1FF81D15D9260036D099 /* Info.plist */,
 				C918FF3E1D162DB0003510BC /* TTS.swift */,
+				C918FF481D1CBDB5003510BC /* Translator.swift */,
+				C96E8E521D1CD9B4007CAB98 /* Polyglot.swift */,
+				C96E8E541D1CD9C7007CAB98 /* Session.swift */,
+				C96E8E561D1CD9F3007CAB98 /* StringExtension.swift */,
 			);
 			path = NekoSensei;
 			sourceTree = "<group>";
@@ -166,15 +178,15 @@
 			path = NekoSenseiUITests;
 			sourceTree = "<group>";
 		};
-		D7533D9618A5F87D760ED71C /* Pods */ = {
+		D2568C974751598CA8B0DF15 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A5A122A3FD21D12317A7E0F9 /* Pods-NekoSensei.debug.xcconfig */,
-				3B74AD25029E07950C91EA4F /* Pods-NekoSensei.release.xcconfig */,
-				28D2AFFBE84AEF389D3B0E02 /* Pods-NekoSenseiTests.debug.xcconfig */,
-				61270D37156C6510EB16665E /* Pods-NekoSenseiTests.release.xcconfig */,
-				8640D1DD3696694E9A6D0436 /* Pods-NekoSenseiUITests.debug.xcconfig */,
-				D39B3C5830D915669A181EFF /* Pods-NekoSenseiUITests.release.xcconfig */,
+				E792A9E7A1210F840320B25C /* Pods-NekoSensei.debug.xcconfig */,
+				2559A07289A4BBDA67555248 /* Pods-NekoSensei.release.xcconfig */,
+				EA44170E13917EB3B7211525 /* Pods-NekoSenseiTests.debug.xcconfig */,
+				6F4D9336CA22E45E84456796 /* Pods-NekoSenseiTests.release.xcconfig */,
+				E75BE485FF3BD8B3344654F5 /* Pods-NekoSenseiUITests.debug.xcconfig */,
+				094DB8ED8DCD7347FF5A8D43 /* Pods-NekoSenseiUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -442,7 +454,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96E8E531D1CD9B4007CAB98 /* Polyglot.swift in Sources */,
+				C96E8E571D1CD9F3007CAB98 /* StringExtension.swift in Sources */,
 				C95E1FF21D15D9260036D099 /* AppDelegate.swift in Sources */,
+				C96E8E551D1CD9C7007CAB98 /* Session.swift in Sources */,
+				C918FF491D1CBDB5003510BC /* Translator.swift in Sources */,
 				C918FF3F1D162DB0003510BC /* TTS.swift in Sources */,
 				C918FF431D1A3E33003510BC /* MainWindowController.swift in Sources */,
 			);
@@ -575,7 +591,7 @@
 		};
 		C95E20121D15D9260036D099 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5A122A3FD21D12317A7E0F9 /* Pods-NekoSensei.debug.xcconfig */;
+			baseConfigurationReference = E792A9E7A1210F840320B25C /* Pods-NekoSensei.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -588,7 +604,7 @@
 		};
 		C95E20131D15D9260036D099 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B74AD25029E07950C91EA4F /* Pods-NekoSensei.release.xcconfig */;
+			baseConfigurationReference = 2559A07289A4BBDA67555248 /* Pods-NekoSensei.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -601,7 +617,7 @@
 		};
 		C95E20151D15D9260036D099 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28D2AFFBE84AEF389D3B0E02 /* Pods-NekoSenseiTests.debug.xcconfig */;
+			baseConfigurationReference = EA44170E13917EB3B7211525 /* Pods-NekoSenseiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -615,7 +631,7 @@
 		};
 		C95E20161D15D9260036D099 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61270D37156C6510EB16665E /* Pods-NekoSenseiTests.release.xcconfig */;
+			baseConfigurationReference = 6F4D9336CA22E45E84456796 /* Pods-NekoSenseiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -629,7 +645,7 @@
 		};
 		C95E20181D15D9260036D099 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8640D1DD3696694E9A6D0436 /* Pods-NekoSenseiUITests.debug.xcconfig */;
+			baseConfigurationReference = E75BE485FF3BD8B3344654F5 /* Pods-NekoSenseiUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = NekoSenseiUITests/Info.plist;
@@ -642,7 +658,7 @@
 		};
 		C95E20191D15D9260036D099 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D39B3C5830D915669A181EFF /* Pods-NekoSenseiUITests.release.xcconfig */;
+			baseConfigurationReference = 094DB8ED8DCD7347FF5A8D43 /* Pods-NekoSenseiUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = NekoSenseiUITests/Info.plist;

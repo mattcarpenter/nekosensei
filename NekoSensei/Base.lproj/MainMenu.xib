@@ -94,19 +94,19 @@
         <window title="NekoSensei" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="562" height="253"/>
+            <rect key="contentRect" x="335" y="390" width="562" height="293"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="562" height="253"/>
+                <rect key="frame" x="0.0" y="0.0" width="562" height="293"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <tabView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yEQ-Vy-bfv">
-                        <rect key="frame" x="13" y="15" width="536" height="232"/>
+                        <rect key="frame" x="13" y="10" width="536" height="277"/>
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
                             <tabViewItem label="クイズ" identifier="1" id="Eez-KH-WGL">
                                 <view key="view" ambiguous="YES" id="5cE-1g-3PA">
-                                    <rect key="frame" x="10" y="33" width="516" height="186"/>
+                                    <rect key="frame" x="10" y="33" width="516" height="231"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6fz-VT-cij">
@@ -157,7 +157,7 @@
                                             </textFieldCell>
                                         </textField>
                                         <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L3v-eR-Q5r">
-                                            <rect key="frame" x="84" y="69" width="335" height="22"/>
+                                            <rect key="frame" x="84" y="69" width="119" height="22"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="WK8-b1-jwD">
                                                 <font key="font" metaFont="system"/>
                                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -172,21 +172,21 @@
                                             </buttonCell>
                                         </button>
                                         <box fixedFrame="YES" title="Options" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="KA8-N5-EX9">
-                                            <rect key="frame" x="4" y="100" width="509" height="86"/>
+                                            <rect key="frame" x="4" y="105" width="509" height="126"/>
                                             <view key="contentView" id="RDp-ts-Dza">
-                                                <rect key="frame" x="1" y="1" width="507" height="70"/>
+                                                <rect key="frame" x="1" y="1" width="507" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
-                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zgx-sv-XkW">
-                                                        <rect key="frame" x="14" y="44" width="49" height="17"/>
-                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Ranges" id="MFd-AV-HnK">
+                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4B4-Ix-ab3">
+                                                        <rect key="frame" x="10" y="47" width="60" height="17"/>
+                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Counters" id="BAu-xj-rI1">
                                                             <font key="font" metaFont="system"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                     </textField>
                                                     <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L46-ye-xr4">
-                                                        <rect key="frame" x="65" y="38" width="372" height="24"/>
+                                                        <rect key="frame" x="74" y="78" width="372" height="24"/>
                                                         <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectAny" id="Mus-Kr-3vi">
                                                             <font key="font" metaFont="system"/>
                                                             <segments>
@@ -201,12 +201,34 @@
                                                         </segmentedCell>
                                                     </segmentedControl>
                                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m6o-mf-m5K">
-                                                        <rect key="frame" x="65" y="12" width="225" height="18"/>
+                                                        <rect key="frame" x="65" y="17" width="225" height="18"/>
                                                         <buttonCell key="cell" type="check" title="Show number (for recall practice)" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="kNa-BB-WvF">
                                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                             <font key="font" metaFont="system"/>
                                                         </buttonCell>
                                                     </button>
+                                                    <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="prC-9y-P6U">
+                                                        <rect key="frame" x="74" y="43" width="339" height="24"/>
+                                                        <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectAny" id="jLz-U1-Hl6">
+                                                            <font key="font" metaFont="system"/>
+                                                            <segments>
+                                                                <segment label="None" selected="YES"/>
+                                                                <segment label="Age" tag="1"/>
+                                                                <segment label="Hours"/>
+                                                                <segment label="Minutes"/>
+                                                                <segment label="People"/>
+                                                                <segment label="Yen"/>
+                                                            </segments>
+                                                        </segmentedCell>
+                                                    </segmentedControl>
+                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zgx-sv-XkW">
+                                                        <rect key="frame" x="21" y="84" width="49" height="17"/>
+                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Ranges" id="MFd-AV-HnK">
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
                                                 </subviews>
                                             </view>
                                             <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
@@ -217,7 +239,7 @@
                             </tabViewItem>
                             <tabViewItem label="訳する" identifier="2" id="TQr-mk-fjy">
                                 <view key="view" id="EfB-Nf-vDz">
-                                    <rect key="frame" x="10" y="33" width="516" height="186"/>
+                                    <rect key="frame" x="10" y="33" width="516" height="231"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
                             </tabViewItem>
@@ -225,10 +247,11 @@
                     </tabView>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="356" y="244.5"/>
+            <point key="canvasLocation" x="356" y="264.5"/>
         </window>
         <customObject id="Kat-Fi-rRW" customClass="MainWindowController" customModule="NekoSensei" customModuleProvider="target">
             <connections>
+                <outlet property="configuredCounterControl" destination="prC-9y-P6U" id="MWg-XB-Cb4"/>
                 <outlet property="rangeControl" destination="L46-ye-xr4" id="0GE-Wu-agQ"/>
             </connections>
         </customObject>
