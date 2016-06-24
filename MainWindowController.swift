@@ -68,10 +68,14 @@ class MainWindowController: NSWindowController {
         }
         
         let x = TTS();
-        x.speak(numbers[0])
+        //x.speak(numbers[0])
         
         let t = Translator();
-        t.translate("foobar")
+        t.translate("5:00 PM") {
+            (result: String) in
+            print(result)
+            x.speak(result)
+        }
 
     }
     

@@ -26,12 +26,12 @@ class Translator {
         }
     }
     
-    func translate(input: String) {
+    func translate(input: String, completion: (result: String) -> Void) {
         let translator = Polyglot(clientId: CLIENT_ID, clientSecret: CLIENT_SECRET)
         translator.fromLanguage = Language.English
         translator.toLanguage = Language.Japanese
-        translator.translate("Thank you very much") { translation in
-            print(translation)
+        translator.translate(input) { translation in
+            completion(result: translation)
         }
         
     }
