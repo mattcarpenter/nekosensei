@@ -23,6 +23,7 @@
 		C96E8E531D1CD9B4007CAB98 /* Polyglot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E8E521D1CD9B4007CAB98 /* Polyglot.swift */; };
 		C96E8E551D1CD9C7007CAB98 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E8E541D1CD9C7007CAB98 /* Session.swift */; };
 		C96E8E571D1CD9F3007CAB98 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E8E561D1CD9F3007CAB98 /* StringExtension.swift */; };
+		C96E8E591D1CDC06007CAB98 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C96E8E581D1CDC06007CAB98 /* config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		C96E8E521D1CD9B4007CAB98 /* Polyglot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polyglot.swift; sourceTree = "<group>"; };
 		C96E8E541D1CD9C7007CAB98 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		C96E8E561D1CD9F3007CAB98 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		C96E8E581D1CDC06007CAB98 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		E75BE485FF3BD8B3344654F5 /* Pods-NekoSenseiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSenseiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSenseiUITests/Pods-NekoSenseiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E792A9E7A1210F840320B25C /* Pods-NekoSensei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSensei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSensei/Pods-NekoSensei.debug.xcconfig"; sourceTree = "<group>"; };
 		EA44170E13917EB3B7211525 /* Pods-NekoSenseiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoSenseiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoSenseiTests/Pods-NekoSenseiTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				C918FF441D1B6139003510BC /* neko.png */,
 				C918FF3C1D161B5D003510BC /* dictionary.json */,
+				C96E8E581D1CDC06007CAB98 /* config.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				C95E1FF41D15D9260036D099 /* Assets.xcassets in Resources */,
 				C918FF3D1D161B5D003510BC /* dictionary.json in Resources */,
 				C95E1FF71D15D9260036D099 /* MainMenu.xib in Resources */,
+				C96E8E591D1CDC06007CAB98 /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

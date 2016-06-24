@@ -14,9 +14,16 @@ class Translator {
     
     let OAUTH_URL = "http://datamarket.accesscontrol.windows.net/v2/OAuth2-13/"
     let CLIENT_ID = "1113625571073686"
-    let CLIENT_SECRET = "1d6yC/KCq48+3iNmHdmpurlaDkIDKjHncl18sOL8x/M="
+    var CLIENT_SECRET: String
     
     init() {
+        var configDict: NSDictionary?
+        if let path = NSBundle.mainBundle().pathForResource("config", ofType: "plist") {
+            configDict = NSDictionary(contentsOfFile: path)
+            self.CLIENT_SECRET = configDict!.valueForKey("client_secret") as! String
+        } else {
+            self.CLIENT_SECRET = ""
+        }
     }
     
     func translate(input: String) {
