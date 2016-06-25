@@ -31,6 +31,7 @@ class Translator {
         translator.fromLanguage = Language.English
         translator.toLanguage = Language.Japanese
         translator.translate(input) { translation in
+            print("In:" + input + " out: " + translation)
             completion(result: translation)
         }
         
