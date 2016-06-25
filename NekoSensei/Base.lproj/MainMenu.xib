@@ -116,7 +116,7 @@
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
                                             <connections>
-                                                <action selector="test:" target="Kat-Fi-rRW" id="eQd-og-DK2"/>
+                                                <action selector="play:" target="Kat-Fi-rRW" id="8bZ-Ad-ZH4"/>
                                             </connections>
                                         </button>
                                         <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3cc-fA-gqD">
@@ -164,13 +164,6 @@
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7K6-td-wtb">
-                                            <rect key="frame" x="310" y="5" width="111" height="29"/>
-                                            <buttonCell key="cell" type="bevel" title="Check Answer" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NEs-IH-92H">
-                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
-                                            </buttonCell>
-                                        </button>
                                         <box fixedFrame="YES" title="Options" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="KA8-N5-EX9">
                                             <rect key="frame" x="4" y="105" width="509" height="126"/>
                                             <view key="contentView" id="RDp-ts-Dza">
@@ -234,6 +227,16 @@
                                             <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                                             <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </box>
+                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7K6-td-wtb">
+                                            <rect key="frame" x="209" y="66" width="111" height="29"/>
+                                            <buttonCell key="cell" type="bevel" title="Check Answer" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NEs-IH-92H">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="check:" target="Kat-Fi-rRW" id="7ec-Im-Fvx"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                 </view>
                             </tabViewItem>
@@ -252,6 +255,7 @@
         <customObject id="Kat-Fi-rRW" customClass="MainWindowController" customModule="NekoSensei" customModuleProvider="target">
             <connections>
                 <outlet property="configuredCounterControl" destination="prC-9y-P6U" id="MWg-XB-Cb4"/>
+                <outlet property="guessField" destination="L3v-eR-Q5r" id="fti-7W-3cW"/>
                 <outlet property="rangeControl" destination="L46-ye-xr4" id="0GE-Wu-agQ"/>
             </connections>
         </customObject>
