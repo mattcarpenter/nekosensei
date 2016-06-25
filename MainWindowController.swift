@@ -62,6 +62,10 @@ class MainWindowController: NSWindowController {
             
             // Minutes are 0-59 and do not need to be translated
             completion(result: String(arc4random_uniform(58) + 1) + " 分")
+        } else if (counter == "Age") {
+            
+            // Age is 0-100 and does not need to be translated
+            completion(result: String(arc4random_uniform(99) + 1) + " 歳")
         } else {
             
             // Grab a random number in each range selected in the configuration options then push into `numbers` array.
