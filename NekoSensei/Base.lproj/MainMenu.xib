@@ -94,40 +94,43 @@
         <window title="NekoSensei" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="562" height="293"/>
+            <rect key="contentRect" x="335" y="390" width="739" height="294"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="562" height="293"/>
+                <rect key="frame" x="0.0" y="0.0" width="739" height="294"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <tabView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yEQ-Vy-bfv">
-                        <rect key="frame" x="13" y="10" width="536" height="277"/>
+                        <rect key="frame" x="13" y="10" width="536" height="278"/>
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
                             <tabViewItem label="クイズ" identifier="1" id="Eez-KH-WGL">
                                 <view key="view" ambiguous="YES" id="5cE-1g-3PA">
-                                    <rect key="frame" x="10" y="33" width="516" height="231"/>
+                                    <rect key="frame" x="10" y="33" width="516" height="232"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6fz-VT-cij">
-                                            <rect key="frame" x="431" y="37" width="81" height="58"/>
-                                            <buttonCell key="cell" type="bevel" title="Play" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LNE-YT-YpH">
+                                            <rect key="frame" x="431" y="38" width="81" height="58"/>
+                                            <buttonCell key="cell" type="bevel" title="Repeaet" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LNE-YT-YpH">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
                                             <connections>
-                                                <action selector="play:" target="Kat-Fi-rRW" id="8bZ-Ad-ZH4"/>
+                                                <action selector="repeatNumber:" target="Kat-Fi-rRW" id="zQX-7f-iKn"/>
                                             </connections>
                                         </button>
                                         <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3cc-fA-gqD">
-                                            <rect key="frame" x="431" y="5" width="81" height="29"/>
+                                            <rect key="frame" x="431" y="6" width="81" height="29"/>
                                             <buttonCell key="cell" type="bevel" title="Next" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mx8-Hl-bfz">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
+                                            <connections>
+                                                <action selector="next:" target="Kat-Fi-rRW" id="RzG-PG-zMJ"/>
+                                            </connections>
                                         </button>
                                         <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R9Y-Zj-pn6">
-                                            <rect key="frame" x="82" y="38" width="339" height="24"/>
+                                            <rect key="frame" x="82" y="39" width="339" height="24"/>
                                             <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="fvo-Ha-7gj">
                                                 <font key="font" metaFont="system"/>
                                                 <segments>
@@ -141,7 +144,7 @@
                                             </segmentedCell>
                                         </segmentedControl>
                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEF-Xn-oXv">
-                                            <rect key="frame" x="5" y="72" width="73" height="17"/>
+                                            <rect key="frame" x="5" y="73" width="73" height="17"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Your Guess" id="2qM-Va-xzv">
                                                 <font key="font" metaFont="system"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -149,7 +152,7 @@
                                             </textFieldCell>
                                         </textField>
                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dER-cY-TYy">
-                                            <rect key="frame" x="-7" y="44" width="85" height="17"/>
+                                            <rect key="frame" x="-7" y="45" width="85" height="17"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Counter" id="AsJ-ay-BuP">
                                                 <font key="font" metaFont="system"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -157,15 +160,28 @@
                                             </textFieldCell>
                                         </textField>
                                         <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L3v-eR-Q5r">
-                                            <rect key="frame" x="84" y="69" width="119" height="22"/>
-                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="WK8-b1-jwD">
+                                            <rect key="frame" x="84" y="70" width="119" height="22"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="WK8-b1-jwD">
                                                 <font key="font" metaFont="system"/>
                                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
+                                            <connections>
+                                                <action selector="performClick:" target="7K6-td-wtb" id="hx1-PW-pwg"/>
+                                            </connections>
                                         </textField>
+                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7K6-td-wtb">
+                                            <rect key="frame" x="209" y="67" width="111" height="29"/>
+                                            <buttonCell key="cell" type="bevel" title="Check Answer" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NEs-IH-92H">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="check:" target="Kat-Fi-rRW" id="7ec-Im-Fvx"/>
+                                            </connections>
+                                        </button>
                                         <box fixedFrame="YES" title="Options" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="KA8-N5-EX9">
-                                            <rect key="frame" x="4" y="105" width="509" height="126"/>
+                                            <rect key="frame" x="4" y="106" width="509" height="126"/>
                                             <view key="contentView" id="RDp-ts-Dza">
                                                 <rect key="frame" x="1" y="1" width="507" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -178,21 +194,6 @@
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                     </textField>
-                                                    <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L46-ye-xr4">
-                                                        <rect key="frame" x="74" y="78" width="372" height="24"/>
-                                                        <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectAny" id="Mus-Kr-3vi">
-                                                            <font key="font" metaFont="system"/>
-                                                            <segments>
-                                                                <segment label="X0"/>
-                                                                <segment label="X00" selected="YES" tag="1"/>
-                                                                <segment label="XX0"/>
-                                                                <segment label="X,000"/>
-                                                                <segment label="X,X00"/>
-                                                                <segment label="X,XX0"/>
-                                                                <segment label="X,XXX"/>
-                                                            </segments>
-                                                        </segmentedCell>
-                                                    </segmentedControl>
                                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m6o-mf-m5K">
                                                         <rect key="frame" x="65" y="17" width="225" height="18"/>
                                                         <buttonCell key="cell" type="check" title="Show number (for recall practice)" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="kNa-BB-WvF">
@@ -222,42 +223,65 @@
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                     </textField>
+                                                    <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L46-ye-xr4">
+                                                        <rect key="frame" x="74" y="80" width="420" height="24"/>
+                                                        <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectAny" id="Mus-Kr-3vi">
+                                                            <font key="font" metaFont="system"/>
+                                                            <segments>
+                                                                <segment label="X0"/>
+                                                                <segment label="X00" selected="YES" tag="1"/>
+                                                                <segment label="XX0"/>
+                                                                <segment label="X,000"/>
+                                                                <segment label="X,X00"/>
+                                                                <segment label="X,XX0"/>
+                                                                <segment label="X,XXX"/>
+                                                                <segment label="XXX"/>
+                                                            </segments>
+                                                        </segmentedCell>
+                                                    </segmentedControl>
                                                 </subviews>
                                             </view>
                                             <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                                             <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </box>
-                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7K6-td-wtb">
-                                            <rect key="frame" x="209" y="66" width="111" height="29"/>
-                                            <buttonCell key="cell" type="bevel" title="Check Answer" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NEs-IH-92H">
-                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
-                                            </buttonCell>
-                                            <connections>
-                                                <action selector="check:" target="Kat-Fi-rRW" id="7ec-Im-Fvx"/>
-                                            </connections>
-                                        </button>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Bq-2s-mIX">
+                                            <rect key="frame" x="82" y="6" width="194" height="27"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="UWR-U3-Jkl">
+                                                <font key="font" metaFont="system" size="22"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
                                     </subviews>
                                 </view>
                             </tabViewItem>
                             <tabViewItem label="訳する" identifier="2" id="TQr-mk-fjy">
                                 <view key="view" id="EfB-Nf-vDz">
-                                    <rect key="frame" x="10" y="33" width="516" height="231"/>
+                                    <rect key="frame" x="10" y="33" width="516" height="232"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
                             </tabViewItem>
                         </tabViewItems>
                     </tabView>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SO2-Ql-Pep">
+                        <rect key="frame" x="547" y="17" width="175" height="260"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="neko" id="lGy-AY-MTh"/>
+                    </imageView>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="356" y="264.5"/>
+            <point key="canvasLocation" x="444.5" y="265"/>
         </window>
         <customObject id="Kat-Fi-rRW" customClass="MainWindowController" customModule="NekoSensei" customModuleProvider="target">
             <connections>
                 <outlet property="configuredCounterControl" destination="prC-9y-P6U" id="MWg-XB-Cb4"/>
                 <outlet property="guessField" destination="L3v-eR-Q5r" id="fti-7W-3cW"/>
                 <outlet property="rangeControl" destination="L46-ye-xr4" id="0GE-Wu-agQ"/>
+                <outlet property="resultsLabel" destination="7Bq-2s-mIX" id="ScM-cH-Kt4"/>
+                <outlet property="win" destination="QvC-M9-y7g" id="TJW-tk-tSb"/>
             </connections>
         </customObject>
     </objects>
+    <resources>
+        <image name="neko" width="495" height="278.5"/>
+    </resources>
 </document>

@@ -15,19 +15,48 @@ class MainWindowController: NSWindowController {
     @IBOutlet weak var guessField: NSTextField?
     @IBOutlet weak var configuredCounterControl: NSSegmentedControl!
     @IBOutlet weak var guessCounterControl: NSSegmentedControl?
+    @IBOutlet var win: NSWindow?
+    @IBOutlet weak var resultsLabel: NSTextField?
     
     var currentNumber: String?
     var currentCounter: String?
 
     override func windowDidLoad() {
         super.windowDidLoad()
-    
+        resultsLabel!.stringValue = ""
+
         // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
     }
     
-    @IBAction func play(sender: NSButton) {
+    @IBAction func repeatNumber(sender: NSButton) {
         let tts = TTS();
-        nextNumber() {
+        if currentNumber != nil {
+            tts.speak(currentNumber!)
+        }
+    }
+    
+    @IBAction func check(sender: NSButton) {
+        if guessField!.stringValue == "" {
+            next(NSButton())
+            return
+        }
+        if currentNumber!.characters.count > 0 && guessField!.stringValue.characters.count > 0 {
+            let parts = currentNumber!.characters.split{$0 == " "}.map(String.init)
+            if parts[0] == guessField!.stringValue {
+                resultsLabel!.stringValue = "Correct!"
+
+            } else {
+                resultsLabel!.stringValue = "Nope!"
+            }
+            guessField!.stringValue = ""
+        }
+    }
+    
+    @IBAction func next(sender: NSButton) {
+        let tts = TTS()
+        resultsLabel!.stringValue = ""
+        guessField!.stringValue = ""
+        generateNextNumber() {
             (result: String, counter: String) in
             self.currentNumber = result
             self.currentCounter = counter
@@ -35,18 +64,7 @@ class MainWindowController: NSWindowController {
         }
     }
     
-    @IBAction func check(sender: NSButton) {
-        if currentNumber!.characters.count > 0 && guessField!.stringValue.characters.count > 0 {
-            let parts = currentNumber!.characters.split{$0 == " "}.map(String.init)
-            if parts[0] == guessField!.stringValue {
-                print("CORRECT")
-            } else {
-                print("NOPE.")
-            }
-        }
-    }
-    
-    func nextNumber(completion: (result: String, counter: String) -> Void) {
+    func generateNextNumber(completion: (result: String, counter: String) -> Void) {
         let t = Translator();
         var numbers = [String]()
         var configuredCounters = [String]()
@@ -105,6 +123,8 @@ class MainWindowController: NSWindowController {
                 completion(result: number, counter: counter)
             } else if counter == "People" {
                 completion(result: number + " 人", counter: counter)
+            } else if counter == "Yen" {
+                completion(result: number + " 円", counter: counter)
             } else {
                 t.translate(number + " " + counter) {
                     (result: String) in
